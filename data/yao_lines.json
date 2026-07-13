@@ -1,0 +1,3090 @@
+[
+  {
+    "hexagram_id": 1,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "潜龙勿用。",
+    "translation": "龙潜伏在水中，暂时不宜有所作为。"
+  },
+  {
+    "hexagram_id": 1,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "见龙在田，利见大人。",
+    "translation": "龙出现在田野上，有利于见到有大德的人。"
+  },
+  {
+    "hexagram_id": 1,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "君子终日乾乾，夕惕若，厉无咎。",
+    "translation": "君子整天勤勉谨慎，到夜晚仍保持警惕，虽有危险但不会有过失。"
+  },
+  {
+    "hexagram_id": 1,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "或跃在渊，无咎。",
+    "translation": "龙或腾跃或深藏于渊，不会有过失。"
+  },
+  {
+    "hexagram_id": 1,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "飞龙在天，利见大人。",
+    "translation": "龙飞腾于天空，有利于见到有大德大位的人。"
+  },
+  {
+    "hexagram_id": 1,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "亢龙有悔。",
+    "translation": "龙飞得过高，会有悔恨。"
+  },
+  {
+    "hexagram_id": 1,
+    "position": 7,
+    "yao_name": "用九",
+    "yao_type": "阳",
+    "original_text": "见群龙无首，吉。",
+    "translation": "出现一群龙而没有首领，吉祥。"
+  },
+  {
+    "hexagram_id": 2,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "履霜，坚冰至。",
+    "translation": "踩到微霜，就知道坚冰将要到来。"
+  },
+  {
+    "hexagram_id": 2,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "直方大，不习无不利。",
+    "translation": "正直、方正、广大，不须修习也没有不利。"
+  },
+  {
+    "hexagram_id": 2,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "含章可贞。或从王事，无成有终。",
+    "translation": "蕴含文采可以守正。或跟从君王做事，不居功而有好结果。"
+  },
+  {
+    "hexagram_id": 2,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "括囊，无咎无誉。",
+    "translation": "扎紧口袋，没有过失也没有赞誉。"
+  },
+  {
+    "hexagram_id": 2,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "黄裳，元吉。",
+    "translation": "穿黄色的下裳，大吉。"
+  },
+  {
+    "hexagram_id": 2,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "龙战于野，其血玄黄。",
+    "translation": "龙在郊野交战，流出青黄色的血。"
+  },
+  {
+    "hexagram_id": 2,
+    "position": 7,
+    "yao_name": "用六",
+    "yao_type": "阴",
+    "original_text": "利永贞。",
+    "translation": "有利于永远守持正道。"
+  },
+  {
+    "hexagram_id": 3,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "磐桓，利居贞，利建侯。",
+    "translation": "徘徊不前，利于安居守正，利于建立诸侯。"
+  },
+  {
+    "hexagram_id": 3,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "屯如邅如，乘马班如。匪寇婚媾，女子贞不字，十年乃字。",
+    "translation": "艰难徘徊，乘马的人来来往往。不是强盗而是来求婚的，女子守贞不嫁，十年后才出嫁。"
+  },
+  {
+    "hexagram_id": 3,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "即鹿无虞，惟入于林中。君子几不如舍，往吝。",
+    "translation": "追鹿没有虞人引路，只会深入林中。君子见机不如舍弃，前往会有遗憾。"
+  },
+  {
+    "hexagram_id": 3,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "乘马班如，求婚媾，往吉，无不利。",
+    "translation": "乘马的人来来往往，前去求婚，前往吉祥，没有不利。"
+  },
+  {
+    "hexagram_id": 3,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "屯其膏，小贞吉，大贞凶。",
+    "translation": "囤积恩泽，小事守正则吉，大事守正则凶。"
+  },
+  {
+    "hexagram_id": 3,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "乘马班如，泣血涟如。",
+    "translation": "乘马的人来来往往，哭泣流血泪涟涟。"
+  },
+  {
+    "hexagram_id": 4,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "发蒙，利用刑人，用说桎梏，以往吝。",
+    "translation": "启发蒙昧之人，利于用刑罚来规范人，解除其桎梏，但继续前往会有遗憾。"
+  },
+  {
+    "hexagram_id": 4,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "包蒙吉，纳妇吉，子克家。",
+    "translation": "包容蒙昧之人则吉，娶妇则吉，儿子能够治理家业。"
+  },
+  {
+    "hexagram_id": 4,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "勿用取女，见金夫，不有躬，无攸利。",
+    "translation": "不要娶这样的女子，她见到富有的男人就不能自守，没有什么好处。"
+  },
+  {
+    "hexagram_id": 4,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "困蒙，吝。",
+    "translation": "困于蒙昧之中，会有遗憾。"
+  },
+  {
+    "hexagram_id": 4,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "童蒙，吉。",
+    "translation": "以童心求教于蒙昧，吉祥。"
+  },
+  {
+    "hexagram_id": 4,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "击蒙，不利为寇，利御寇。",
+    "translation": "用猛击来启发蒙昧，不利于做强盗，利于抵御强盗。"
+  },
+  {
+    "hexagram_id": 5,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "需于郊，利用恒，无咎。",
+    "translation": "在郊野等待，利于保持恒心，没有过失。"
+  },
+  {
+    "hexagram_id": 5,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "需于沙，小有言，终吉。",
+    "translation": "在沙滩上等待，稍有口舌是非，最终吉祥。"
+  },
+  {
+    "hexagram_id": 5,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "需于泥，致寇至。",
+    "translation": "在泥泞中等待，招致强盗到来。"
+  },
+  {
+    "hexagram_id": 5,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "需于血，出自穴。",
+    "translation": "在流血的地方等待，从陷阱中脱出。"
+  },
+  {
+    "hexagram_id": 5,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "需于酒食，贞吉。",
+    "translation": "在酒食宴享中等待，守正则吉。"
+  },
+  {
+    "hexagram_id": 5,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "入于穴，有不速之客三人来，敬之终吉。",
+    "translation": "落入陷阱中，有三位不请自来的客人，恭敬对待最终吉祥。"
+  },
+  {
+    "hexagram_id": 6,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "不永所事，小有言，终吉。",
+    "translation": "不长久纠缠于争讼之事，稍有口舌是非，最终吉祥。"
+  },
+  {
+    "hexagram_id": 6,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "不克讼，归而逋，其邑人三百户，无眚。",
+    "translation": "争讼不能取胜，回来后逃亡，其三百户邑人没有灾祸。"
+  },
+  {
+    "hexagram_id": 6,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "食旧德，贞厉，终吉。或从王事，无成。",
+    "translation": "享用旧日的德业，守正防危，最终吉祥。或跟从君王做事，不居功。"
+  },
+  {
+    "hexagram_id": 6,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "不克讼，复即命，渝安贞，吉。",
+    "translation": "争讼不能取胜，回来服从命令，改变态度安于守正，吉祥。"
+  },
+  {
+    "hexagram_id": 6,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "讼元吉。",
+    "translation": "争讼大吉。"
+  },
+  {
+    "hexagram_id": 6,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "或锡之鞶带，终朝三褫之。",
+    "translation": "或许赐给他大带，但一个早晨就被三次剥夺。"
+  },
+  {
+    "hexagram_id": 7,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "师出以律，否臧凶。",
+    "translation": "出兵作战要有纪律，否则不论好坏都很凶险。"
+  },
+  {
+    "hexagram_id": 7,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "在师中吉，无咎，王三锡命。",
+    "translation": "在军中统帅吉利，没有过失，君王多次赐予嘉奖。"
+  },
+  {
+    "hexagram_id": 7,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "师或舆尸，凶。",
+    "translation": "军队或许会载尸而归，凶险。"
+  },
+  {
+    "hexagram_id": 7,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "师左次，无咎。",
+    "translation": "军队向左驻扎，没有过失。"
+  },
+  {
+    "hexagram_id": 7,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "田有禽，利执言，无咎。长子帅师，弟子舆尸，贞凶。",
+    "translation": "田地里有禽兽，利于抓获，没有过失。长子率军，次子载尸而归，守正也凶险。"
+  },
+  {
+    "hexagram_id": 7,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "大君有命，开国承家，小人勿用。",
+    "translation": "天子论功行赏，封邦建国，不要任用小人。"
+  },
+  {
+    "hexagram_id": 8,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "有孚比之，无咎。有孚盈缶，终来有它，吉。",
+    "translation": "有诚信来亲附，没有过失。诚信如满缶之水，终会有意外之福，吉祥。"
+  },
+  {
+    "hexagram_id": 8,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "比之自内，贞吉。",
+    "translation": "从内部亲附，守正则吉。"
+  },
+  {
+    "hexagram_id": 8,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "比之匪人。",
+    "translation": "亲附不当的人。"
+  },
+  {
+    "hexagram_id": 8,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "外比之，贞吉。",
+    "translation": "从外部亲附，守正则吉。"
+  },
+  {
+    "hexagram_id": 8,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "显比，王用三驱，失前禽。邑人不诫，吉。",
+    "translation": "光明无私地亲附，君王田猎三面驱赶，放走前面的猎物。邑中之人不用诫命，吉祥。"
+  },
+  {
+    "hexagram_id": 8,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "比之无首，凶。",
+    "translation": "亲附却没有开始，凶险。"
+  },
+  {
+    "hexagram_id": 9,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "复自道，何其咎，吉。",
+    "translation": "从正道返回，有什么过失呢，吉祥。"
+  },
+  {
+    "hexagram_id": 9,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "牵复，吉。",
+    "translation": "被牵连而返回正道，吉祥。"
+  },
+  {
+    "hexagram_id": 9,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "舆说辐，夫妻反目。",
+    "translation": "车轮脱去辐条，夫妻反目不和。"
+  },
+  {
+    "hexagram_id": 9,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "有孚，血去惕出，无咎。",
+    "translation": "有诚信，远离流血和恐惧，没有过失。"
+  },
+  {
+    "hexagram_id": 9,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "有孚挛如，富以其邻。",
+    "translation": "有诚信紧密相连，与邻居共享富足。"
+  },
+  {
+    "hexagram_id": 9,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "既雨既处，尚德载，妇贞厉。月几望，君子征凶。",
+    "translation": "已经下雨已经安居，尚需积德载物，妇人守正则有危险。月近圆时，君子出征凶险。"
+  },
+  {
+    "hexagram_id": 10,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "素履，往无咎。",
+    "translation": "以质朴的态度行事，前往没有过失。"
+  },
+  {
+    "hexagram_id": 10,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "履道坦坦，幽人贞吉。",
+    "translation": "行走的道路平坦，隐居之人守正则吉。"
+  },
+  {
+    "hexagram_id": 10,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "眇能视，跛能履，履虎尾，咥人，凶。武人为于大君。",
+    "translation": "独眼却要看得清，跛脚却要行走，踩到虎尾被虎咬，凶险。武人为大君效力。"
+  },
+  {
+    "hexagram_id": 10,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "履虎尾，愬愬，终吉。",
+    "translation": "踩到虎尾，恐惧戒备，最终吉祥。"
+  },
+  {
+    "hexagram_id": 10,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "夬履，贞厉。",
+    "translation": "刚决地行事，守正以防危险。"
+  },
+  {
+    "hexagram_id": 10,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "视履考祥，其旋元吉。",
+    "translation": "审视行为考察吉凶，回返正道则大吉。"
+  },
+  {
+    "hexagram_id": 11,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "拔茅茹，以其汇，征吉。",
+    "translation": "拔起茅草及其同类，出征吉祥。"
+  },
+  {
+    "hexagram_id": 11,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "包荒，用冯河，不遐遗，朋亡，得尚于中行。",
+    "translation": "包容荒远，徒步涉河，不遗弃远方，不结党营私，得中道而行。"
+  },
+  {
+    "hexagram_id": 11,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "无平不陂，无往不复，艰贞无咎。勿恤其孚，于食有福。",
+    "translation": "没有平坦不化为险陂的，没有前往不返回的，在艰难中守正则无过失。不必忧虑诚信，在饮食上会有福气。"
+  },
+  {
+    "hexagram_id": 11,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "翩翩，不富以其邻，不戒以孚。",
+    "translation": "翩翩而下，不以邻人自富，不以诚信相告诫。"
+  },
+  {
+    "hexagram_id": 11,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "帝乙归妹，以祉元吉。",
+    "translation": "帝乙嫁出少女，以此获得福佑，大吉。"
+  },
+  {
+    "hexagram_id": 11,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "城复于隍，勿用师。自邑告命，贞吝。",
+    "translation": "城墙倾覆于城壕中，不可出兵作战。从城邑中传达命令，守正亦有遗憾。"
+  },
+  {
+    "hexagram_id": 12,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "拔茅茹，以其汇，贞吉亨。",
+    "translation": "拔起茅草及其同类，守正则吉祥亨通。"
+  },
+  {
+    "hexagram_id": 12,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "包承，小人吉，大人否亨。",
+    "translation": "包容奉承，小人吉祥，大人闭塞则亨通。"
+  },
+  {
+    "hexagram_id": 12,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "包羞。",
+    "translation": "包容羞辱之事。"
+  },
+  {
+    "hexagram_id": 12,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "有命无咎，畴离祉。",
+    "translation": "有天命降下则无过失，众人依附获得福佑。"
+  },
+  {
+    "hexagram_id": 12,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "休否，大人吉。其亡其亡，系于苞桑。",
+    "translation": "闭塞终止，大人吉祥。时刻警惕将要灭亡，才能像系在桑树根上一样稳固。"
+  },
+  {
+    "hexagram_id": 12,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "倾否，先否后喜。",
+    "translation": "倾覆闭塞，先闭塞后欢喜。"
+  },
+  {
+    "hexagram_id": 13,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "同人于门，无咎。",
+    "translation": "在门外与人同心，没有过失。"
+  },
+  {
+    "hexagram_id": 13,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "同人于宗，吝。",
+    "translation": "只在宗族内与人同心，有遗憾。"
+  },
+  {
+    "hexagram_id": 13,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "伏戎于莽，升其高陵，三岁不兴。",
+    "translation": "把军队埋伏在草莽中，登上高陵，三年不能出兵。"
+  },
+  {
+    "hexagram_id": 13,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "乘其墉，弗克攻，吉。",
+    "translation": "登上城墙，不能攻克，吉祥。"
+  },
+  {
+    "hexagram_id": 13,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "同人，先号咷而后笑，大师克相遇。",
+    "translation": "与人同心，先号哭后欢笑，大军克服障碍后相遇。"
+  },
+  {
+    "hexagram_id": 13,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "同人于郊，无悔。",
+    "translation": "在郊野与人同心，没有悔恨。"
+  },
+  {
+    "hexagram_id": 14,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "无交害，匪咎，艰则无咎。",
+    "translation": "没有交相侵害，不是过失，在艰难中则无过失。"
+  },
+  {
+    "hexagram_id": 14,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "大车以载，有攸往，无咎。",
+    "translation": "用大车装载，有所前往，没有过失。"
+  },
+  {
+    "hexagram_id": 14,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "公用亨于天子，小人弗克。",
+    "translation": "公侯向天子进献贡品，小人不能做到。"
+  },
+  {
+    "hexagram_id": 14,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "匪其彭，无咎。",
+    "translation": "不过分盛大，没有过失。"
+  },
+  {
+    "hexagram_id": 14,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "厥孚交如，威如，吉。",
+    "translation": "其诚信交相辉映，威严庄重，吉祥。"
+  },
+  {
+    "hexagram_id": 14,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "自天佑之，吉无不利。",
+    "translation": "来自上天的保佑，吉祥无不利。"
+  },
+  {
+    "hexagram_id": 15,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "谦谦君子，用涉大川，吉。",
+    "translation": "谦而又谦的君子，可以涉越大河，吉祥。"
+  },
+  {
+    "hexagram_id": 15,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "鸣谦，贞吉。",
+    "translation": "名声远扬而仍谦虚，守正则吉。"
+  },
+  {
+    "hexagram_id": 15,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "劳谦，君子有终，吉。",
+    "translation": "有功劳而仍谦虚，君子有好结果，吉祥。"
+  },
+  {
+    "hexagram_id": 15,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "无不利，撝谦。",
+    "translation": "没有不利，发挥谦虚的美德。"
+  },
+  {
+    "hexagram_id": 15,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "不富以其邻，利用侵伐，无不利。",
+    "translation": "不以邻人自富，利于出兵征伐，没有不利。"
+  },
+  {
+    "hexagram_id": 15,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "鸣谦，利用行师，征邑国。",
+    "translation": "名声远扬而仍谦虚，利于出兵作战，征讨邑国。"
+  },
+  {
+    "hexagram_id": 16,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "鸣豫，凶。",
+    "translation": "自鸣得意于逸乐，凶险。"
+  },
+  {
+    "hexagram_id": 16,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "介于石，不终日，贞吉。",
+    "translation": "坚如磐石，不用整天就能决断，守正则吉。"
+  },
+  {
+    "hexagram_id": 16,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "盱豫，悔。迟有悔。",
+    "translation": "献媚求乐，会有悔恨。迟疑不决也有悔恨。"
+  },
+  {
+    "hexagram_id": 16,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "由豫，大有得。勿疑，朋盍簪。",
+    "translation": "由自己带来安乐，大有所得。不要怀疑，朋友们会聚而来。"
+  },
+  {
+    "hexagram_id": 16,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "贞疾，恒不死。",
+    "translation": "守正防疾，长久不会死亡。"
+  },
+  {
+    "hexagram_id": 16,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "冥豫，成有渝，无咎。",
+    "translation": "沉迷于逸乐，事情已成但有变故，没有过失。"
+  },
+  {
+    "hexagram_id": 17,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "官有渝，贞吉。出门交有功。",
+    "translation": "官事有变通，守正则吉。出门交结朋友会有功绩。"
+  },
+  {
+    "hexagram_id": 17,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "系小子，失丈夫。",
+    "translation": "依附小人，就会失去大人。"
+  },
+  {
+    "hexagram_id": 17,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "系丈夫，失小子。随有求得，利居贞。",
+    "translation": "依附大人，失去小人。随从有所求则得，利于安居守正。"
+  },
+  {
+    "hexagram_id": 17,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "随有获，贞凶。有孚在道，以明，何咎。",
+    "translation": "随从而有所获，守正防凶。有诚信行于正道，以此明示，有何过失。"
+  },
+  {
+    "hexagram_id": 17,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "孚于嘉，吉。",
+    "translation": "诚信于善美，吉祥。"
+  },
+  {
+    "hexagram_id": 17,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "拘系之，乃从维之。王用亨于西山。",
+    "translation": "拘禁束缚他，又从而维系他。君王在西山举行祭祀。"
+  },
+  {
+    "hexagram_id": 18,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "干父之蛊，有子考，无咎，厉终吉。",
+    "translation": "匡正父亲的弊乱，有这样的好儿子，没有过失，虽有危险最终吉祥。"
+  },
+  {
+    "hexagram_id": 18,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "干母之蛊，不可贞。",
+    "translation": "匡正母亲的弊乱，不可固执守正。"
+  },
+  {
+    "hexagram_id": 18,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "干父之蛊，小有悔，无大咎。",
+    "translation": "匡正父亲的弊乱，稍有悔恨，没有大过失。"
+  },
+  {
+    "hexagram_id": 18,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "裕父之蛊，往见吝。",
+    "translation": "宽纵父亲的弊乱，前往会有遗憾。"
+  },
+  {
+    "hexagram_id": 18,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "干父之蛊，用誉。",
+    "translation": "匡正父亲的弊乱，因此而获得赞誉。"
+  },
+  {
+    "hexagram_id": 18,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "不事王侯，高尚其事。",
+    "translation": "不侍奉王侯，以自己的志向为高尚。"
+  },
+  {
+    "hexagram_id": 19,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "咸临，贞吉。",
+    "translation": "以感化之心来临，守正则吉。"
+  },
+  {
+    "hexagram_id": 19,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "咸临，吉无不利。",
+    "translation": "以感化之心来临，吉祥没有不利。"
+  },
+  {
+    "hexagram_id": 19,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "甘临，无攸利。既忧之，无咎。",
+    "translation": "以甜言蜜语来临，没有什么好处。已经为此忧虑，则无过失。"
+  },
+  {
+    "hexagram_id": 19,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "至临，无咎。",
+    "translation": "亲自来临，没有过失。"
+  },
+  {
+    "hexagram_id": 19,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "知临，大君之宜，吉。",
+    "translation": "以明智来临，是大君的适宜做法，吉祥。"
+  },
+  {
+    "hexagram_id": 19,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "敦临，吉无咎。",
+    "translation": "以敦厚之心来临，吉祥没有过失。"
+  },
+  {
+    "hexagram_id": 20,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "童观，小人无咎，君子吝。",
+    "translation": "像儿童一样观察，小人没有过失，君子则有遗憾。"
+  },
+  {
+    "hexagram_id": 20,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "窥观，利女贞。",
+    "translation": "从门缝中窥视，利于女子守正。"
+  },
+  {
+    "hexagram_id": 20,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "观我生，进退。",
+    "translation": "观察自己的生民，决定进退。"
+  },
+  {
+    "hexagram_id": 20,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "观国之光，利用宾于王。",
+    "translation": "观察国家的光辉，利于作为君王的宾客。"
+  },
+  {
+    "hexagram_id": 20,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "观我生，君子无咎。",
+    "translation": "观察自己的生民，君子没有过失。"
+  },
+  {
+    "hexagram_id": 20,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "观其生，君子无咎。",
+    "translation": "观察他国的生民，君子没有过失。"
+  },
+  {
+    "hexagram_id": 21,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "屦校灭趾，无咎。",
+    "translation": "脚上戴着刑具遮没了脚趾，没有过失。"
+  },
+  {
+    "hexagram_id": 21,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "噬肤灭鼻，无咎。",
+    "translation": "咬食肥肉遮没了鼻子，没有过失。"
+  },
+  {
+    "hexagram_id": 21,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "噬腊肉，遇毒，小吝，无咎。",
+    "translation": "咬食干腊肉，遇到毒物，稍有遗憾，没有过失。"
+  },
+  {
+    "hexagram_id": 21,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "噬干胏，得金矢，利艰贞，吉。",
+    "translation": "咬食带骨的干肉，得到铜箭头，利于在艰难中守正，吉祥。"
+  },
+  {
+    "hexagram_id": 21,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "噬干肉，得黄金，贞厉，无咎。",
+    "translation": "咬食干肉，得到黄金，守正防危，没有过失。"
+  },
+  {
+    "hexagram_id": 21,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "何校灭耳，凶。",
+    "translation": "肩上扛着刑具遮没了耳朵，凶险。"
+  },
+  {
+    "hexagram_id": 22,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "贲其趾，舍车而徒。",
+    "translation": "装饰脚趾，舍弃车马而步行。"
+  },
+  {
+    "hexagram_id": 22,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "贲其须。",
+    "translation": "装饰须发。"
+  },
+  {
+    "hexagram_id": 22,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "贲如濡如，永贞吉。",
+    "translation": "装饰润泽的样子，永远守正则吉。"
+  },
+  {
+    "hexagram_id": 22,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "贲如皤如，白马翰如，匪寇婚媾。",
+    "translation": "装饰洁白的样子，白马奔腾如飞，不是强盗而是来求婚的。"
+  },
+  {
+    "hexagram_id": 22,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "贲于丘园，束帛戋戋，吝，终吉。",
+    "translation": "装饰山丘园圃，只送很少的丝帛，虽有遗憾，最终吉祥。"
+  },
+  {
+    "hexagram_id": 22,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "白贲，无咎。",
+    "translation": "以纯白为装饰，没有过失。"
+  },
+  {
+    "hexagram_id": 23,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "剥床以足，蔑贞凶。",
+    "translation": "剥落床的脚，轻视正道则凶险。"
+  },
+  {
+    "hexagram_id": 23,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "剥床以辨，蔑贞凶。",
+    "translation": "剥落床的辨材，轻视正道则凶险。"
+  },
+  {
+    "hexagram_id": 23,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "剥之，无咎。",
+    "translation": "剥落它，没有过失。"
+  },
+  {
+    "hexagram_id": 23,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "剥床以肤，凶。",
+    "translation": "剥落到床面，凶险。"
+  },
+  {
+    "hexagram_id": 23,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "贯鱼，以宫人宠，无不利。",
+    "translation": "像鱼一样依次排列，以宫人受宠的方式，没有不利。"
+  },
+  {
+    "hexagram_id": 23,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "硕果不食，君子得舆，小人剥庐。",
+    "translation": "硕大的果实未被吃掉，君子得到车乘，小人则剥去庐舍。"
+  },
+  {
+    "hexagram_id": 24,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "不远复，无祗悔，元吉。",
+    "translation": "走得不远就返回，没有大的悔恨，大吉。"
+  },
+  {
+    "hexagram_id": 24,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "休复，吉。",
+    "translation": "美好地返回，吉祥。"
+  },
+  {
+    "hexagram_id": 24,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "频复，厉无咎。",
+    "translation": "频繁地返回，虽有危险但没有过失。"
+  },
+  {
+    "hexagram_id": 24,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "中行独复。",
+    "translation": "在众人中独自返回正道。"
+  },
+  {
+    "hexagram_id": 24,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "敦复，无悔。",
+    "translation": "敦厚地返回，没有悔恨。"
+  },
+  {
+    "hexagram_id": 24,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "迷复，凶，有灾眚。用行师，终有大败，以其国君凶，至于十年不克征。",
+    "translation": "迷失而返回，凶险，有灾祸。出兵作战终将大败，其国君凶险，以至于十年不能再出征。"
+  },
+  {
+    "hexagram_id": 25,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "无妄，往吉。",
+    "translation": "不妄为，前往吉祥。"
+  },
+  {
+    "hexagram_id": 25,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "不耕获，不菑畬，则利有攸往。",
+    "translation": "不耕种就想收获，不开垦就想有熟田，则利于有所前往。"
+  },
+  {
+    "hexagram_id": 25,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "无妄之灾，或系之牛，行人之得，邑人之灾。",
+    "translation": "不妄为却遭灾祸，有人拴了一头牛，过路人牵走了，邑中人却遭了灾。"
+  },
+  {
+    "hexagram_id": 25,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "可贞，无咎。",
+    "translation": "可以守正，没有过失。"
+  },
+  {
+    "hexagram_id": 25,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "无妄之疾，勿药有喜。",
+    "translation": "不妄为却得了病，不用吃药自然痊愈。"
+  },
+  {
+    "hexagram_id": 25,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "无妄，行有眚，无攸利。",
+    "translation": "不妄为却妄行，会有灾祸，没有什么好处。"
+  },
+  {
+    "hexagram_id": 26,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "有厉，利已。",
+    "translation": "有危险，利于停止。"
+  },
+  {
+    "hexagram_id": 26,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "舆说輹。",
+    "translation": "车脱去了车轴的缚绑。"
+  },
+  {
+    "hexagram_id": 26,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "良马逐，利艰贞。日闲舆卫，利有攸往。",
+    "translation": "良马驰逐，利于在艰难中守正。每日练习车马防卫，利于有所前往。"
+  },
+  {
+    "hexagram_id": 26,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "童牛之牿，元吉。",
+    "translation": "小牛角上装上横木，大吉。"
+  },
+  {
+    "hexagram_id": 26,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "豮豕之牙，吉。",
+    "translation": "阉猪的牙齿，吉祥。"
+  },
+  {
+    "hexagram_id": 26,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "何天之衢，亨。",
+    "translation": "承担天的大道，亨通。"
+  },
+  {
+    "hexagram_id": 27,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "舍尔灵龟，观我朵颐，凶。",
+    "translation": "舍弃你的灵龟不食，来观赏我大嚼，凶险。"
+  },
+  {
+    "hexagram_id": 27,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "颠颐，拂经于丘颐，征凶。",
+    "translation": "颠倒颐养之道，违背常理求养于丘陵，前往凶险。"
+  },
+  {
+    "hexagram_id": 27,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "拂颐，贞凶，十年勿用，无攸利。",
+    "translation": "违背颐养之道，守正也凶险，十年不能有所作为，没有什么好处。"
+  },
+  {
+    "hexagram_id": 27,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "颠颐，吉。虎视眈眈，其欲逐逐，无咎。",
+    "translation": "颠倒颐养之道却吉祥。虎视眈眈，欲望迫切，没有过失。"
+  },
+  {
+    "hexagram_id": 27,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "拂经，居贞吉，不可涉大川。",
+    "translation": "违背常理，安居守正则吉，不可涉越大河。"
+  },
+  {
+    "hexagram_id": 27,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "由颐，厉吉，利涉大川。",
+    "translation": "由此得到颐养，虽有危险但吉祥，利于涉越大河。"
+  },
+  {
+    "hexagram_id": 28,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "藉用白茅，无咎。",
+    "translation": "用白色的茅草垫在祭品下，没有过失。"
+  },
+  {
+    "hexagram_id": 28,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "枯杨生稊，老夫得其女妻，无不利。",
+    "translation": "枯萎的杨树长出新芽，老夫娶到年轻的妻子，没有什么不利。"
+  },
+  {
+    "hexagram_id": 28,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "栋桡，凶。",
+    "translation": "栋梁弯曲，凶险。"
+  },
+  {
+    "hexagram_id": 28,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "栋隆，吉。有它吝。",
+    "translation": "栋梁隆起，吉祥。但有其他遗憾。"
+  },
+  {
+    "hexagram_id": 28,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "枯杨生华，老妇得其士夫，无咎无誉。",
+    "translation": "枯萎的杨树开了花，老妇嫁给了年轻丈夫，没有过失也没有赞誉。"
+  },
+  {
+    "hexagram_id": 28,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "过涉灭顶，凶，无咎。",
+    "translation": "涉水过河淹没头顶，凶险，但没有过失。"
+  },
+  {
+    "hexagram_id": 29,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "习坎，入于坎窞，凶。",
+    "translation": "重复陷入坎险，进入深坑中，凶险。"
+  },
+  {
+    "hexagram_id": 29,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "坎有险，求小得。",
+    "translation": "坎中有险阻，只能求取小有所得。"
+  },
+  {
+    "hexagram_id": 29,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "来之坎坎，险且枕，入于坎窞，勿用。",
+    "translation": "来往都是坎险，既危险又不得安息，进入深坑中，不可有所作为。"
+  },
+  {
+    "hexagram_id": 29,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "樽酒，簋贰，用缶，纳约自牖，终无咎。",
+    "translation": "一樽酒，两簋饭，用瓦缶盛着，从窗户送入简约的诚信，最终没有过失。"
+  },
+  {
+    "hexagram_id": 29,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "坎不盈，祗既平，无咎。",
+    "translation": "坎水没有满溢，恰至平齐，没有过失。"
+  },
+  {
+    "hexagram_id": 29,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "系用徽纆，寘于丛棘，三岁不得，凶。",
+    "translation": "用绳索捆绑，置于荆棘丛中，三年不得解脱，凶险。"
+  },
+  {
+    "hexagram_id": 30,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "履错然，敬之无咎。",
+    "translation": "脚步交错杂乱，恭敬对待则无过失。"
+  },
+  {
+    "hexagram_id": 30,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "黄离，元吉。",
+    "translation": "黄色的附丽，大吉。"
+  },
+  {
+    "hexagram_id": 30,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "日昃之离，不鼓缶而歌，则大耋之嗟，凶。",
+    "translation": "太阳偏西的附丽，不击缶高歌，就是老人的叹息，凶险。"
+  },
+  {
+    "hexagram_id": 30,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "突如其来如，焚如，死如，弃如。",
+    "translation": "突然而来，焚烧、死亡、弃绝的样子。"
+  },
+  {
+    "hexagram_id": 30,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "出涕沱若，戚嗟若，吉。",
+    "translation": "涕泪滂沱的样子，忧伤哀叹的样子，吉祥。"
+  },
+  {
+    "hexagram_id": 30,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "王用出征，有嘉折首，获匪其丑，无咎。",
+    "translation": "君王出兵征伐，嘉奖斩首之功，抓获的不是其同类，没有过失。"
+  },
+  {
+    "hexagram_id": 31,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "咸其拇。",
+    "translation": "感应到脚拇指。"
+  },
+  {
+    "hexagram_id": 31,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "咸其腓，凶，居吉。",
+    "translation": "感应到小腿，凶险，安居则吉。"
+  },
+  {
+    "hexagram_id": 31,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "咸其股，执其随，往吝。",
+    "translation": "感应到大腿，执意随从他人，前往会有遗憾。"
+  },
+  {
+    "hexagram_id": 31,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "贞吉悔亡，憧憧往来，朋从尔思。",
+    "translation": "守正则吉悔恨消失，心意不安地往来，朋友们顺从你的思念。"
+  },
+  {
+    "hexagram_id": 31,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "咸其脢，无悔。",
+    "translation": "感应到背脊，没有悔恨。"
+  },
+  {
+    "hexagram_id": 31,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "咸其辅颊舌。",
+    "translation": "感应到脸颊和舌头上。"
+  },
+  {
+    "hexagram_id": 32,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "浚恒，贞凶，无攸利。",
+    "translation": "深求恒久，守正也凶险，没有什么好处。"
+  },
+  {
+    "hexagram_id": 32,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "悔亡。",
+    "translation": "悔恨消失。"
+  },
+  {
+    "hexagram_id": 32,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "不恒其德，或承之羞，贞吝。",
+    "translation": "不能恒守其德行，或许会承受羞辱，守正也有遗憾。"
+  },
+  {
+    "hexagram_id": 32,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "田无禽。",
+    "translation": "田猎没有猎获。"
+  },
+  {
+    "hexagram_id": 32,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "恒其德，贞，妇人吉，夫子凶。",
+    "translation": "恒守其德行而守正，妇人吉祥，男子则凶险。"
+  },
+  {
+    "hexagram_id": 32,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "浚恒，凶。",
+    "translation": "深求恒久，凶险。"
+  },
+  {
+    "hexagram_id": 33,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "遁尾，厉，勿用有攸往。",
+    "translation": "退避落在末尾，危险，不要有所前往。"
+  },
+  {
+    "hexagram_id": 33,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "执之用黄牛之革，莫之胜说。",
+    "translation": "用黄牛皮的绳索捆绑，没有人能解脱。"
+  },
+  {
+    "hexagram_id": 33,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "系遁，有疾厉，畜臣妾吉。",
+    "translation": "心有牵系而退避，有疾病危险，蓄养臣妾则吉。"
+  },
+  {
+    "hexagram_id": 33,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "好遁，君子吉，小人否。",
+    "translation": "喜好退避，君子吉祥，小人做不到。"
+  },
+  {
+    "hexagram_id": 33,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "嘉遁，贞吉。",
+    "translation": "美好的退避，守正则吉。"
+  },
+  {
+    "hexagram_id": 33,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "肥遁，无不利。",
+    "translation": "宽裕地退避，没有不利。"
+  },
+  {
+    "hexagram_id": 34,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "壮于趾，征凶，有孚。",
+    "translation": "强壮在脚趾上，出征凶险，但心存诚信。"
+  },
+  {
+    "hexagram_id": 34,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "贞吉。",
+    "translation": "守正则吉。"
+  },
+  {
+    "hexagram_id": 34,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "小人用壮，君子用罔，贞厉。羝羊触藩，羸其角。",
+    "translation": "小人凭力气逞强，君子则不如此，守正防危。公羊冲撞藩篱，羊角被缠住。"
+  },
+  {
+    "hexagram_id": 34,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "贞吉悔亡。藩决不羸，壮于大舆之輹。",
+    "translation": "守正则吉悔恨消失。藩篱冲破不再缠缚，比大车的轮辐还要强壮。"
+  },
+  {
+    "hexagram_id": 34,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "丧羊于易，无悔。",
+    "translation": "在边界丢失了羊，没有悔恨。"
+  },
+  {
+    "hexagram_id": 34,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "羝羊触藩，不能退，不能遂，无攸利，艰则吉。",
+    "translation": "公羊冲撞藩篱，不能后退也不能前进，没有什么好处，在艰难中则吉。"
+  },
+  {
+    "hexagram_id": 35,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "晋如，摧如，贞吉。罔孚，裕无咎。",
+    "translation": "前进又受挫，守正则吉。尚未取得信任，宽裕从容则无过失。"
+  },
+  {
+    "hexagram_id": 35,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "晋如，愁如，贞吉。受兹介福，于其王母。",
+    "translation": "前进中忧愁，守正则吉。从王母那里接受大的福佑。"
+  },
+  {
+    "hexagram_id": 35,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "众允，悔亡。",
+    "translation": "众人信任，悔恨消失。"
+  },
+  {
+    "hexagram_id": 35,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "晋如鼫鼠，贞厉。",
+    "translation": "像鼫鼠一样前进贪得，守正防危。"
+  },
+  {
+    "hexagram_id": 35,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "悔亡，失得勿恤，往吉无不利。",
+    "translation": "悔恨消失，不要忧虑得失，前往吉祥没有不利。"
+  },
+  {
+    "hexagram_id": 35,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "晋其角，维用伐邑，厉吉无咎，贞吝。",
+    "translation": "前进到角尖，只用来征伐自己的城邑，有危险但吉祥没有过失，守正则有遗憾。"
+  },
+  {
+    "hexagram_id": 36,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "明夷于飞，垂其翼。君子于行，三日不食，有攸往，主人有言。",
+    "translation": "光明受伤时飞行，垂下翅膀。君子出行，三天不吃东西，有所前往，主人有责言。"
+  },
+  {
+    "hexagram_id": 36,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "明夷，夷于左股，用拯马壮，吉。",
+    "translation": "光明受伤，伤了左腿，用强壮的马拯救，吉祥。"
+  },
+  {
+    "hexagram_id": 36,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "明夷于南狩，得其大首，不可疾贞。",
+    "translation": "光明受伤时到南方狩猎，获得大的首魁，不可急于守正。"
+  },
+  {
+    "hexagram_id": 36,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "入于左腹，获明夷之心，于出门庭。",
+    "translation": "进入左腹，获得光明受伤的内情，走出家门。"
+  },
+  {
+    "hexagram_id": 36,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "箕子之明夷，利贞。",
+    "translation": "箕子的光明受伤，利于守正。"
+  },
+  {
+    "hexagram_id": 36,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "不明晦，初登于天，后入于地。",
+    "translation": "不光明而昏暗，起初升上天空，后来陷入地下。"
+  },
+  {
+    "hexagram_id": 37,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "闲有家，悔亡。",
+    "translation": "在家中做好防范，悔恨消失。"
+  },
+  {
+    "hexagram_id": 37,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "无攸遂，在中馈，贞吉。",
+    "translation": "无所成就，主管家中饮食，守正则吉。"
+  },
+  {
+    "hexagram_id": 37,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "家人嗃嗃，悔厉吉。妇子嘻嘻，终吝。",
+    "translation": "家人受到严厉管教，虽有悔恨和危险但吉祥。妇人和孩子嬉笑，最终会有遗憾。"
+  },
+  {
+    "hexagram_id": 37,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "富家，大吉。",
+    "translation": "使家庭富裕，大吉。"
+  },
+  {
+    "hexagram_id": 37,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "王假有家，勿恤，吉。",
+    "translation": "君王来到家中，不必忧虑，吉祥。"
+  },
+  {
+    "hexagram_id": 37,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "有孚威如，终吉。",
+    "translation": "有诚信且有威严，最终吉祥。"
+  },
+  {
+    "hexagram_id": 38,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "悔亡，丧马勿逐，自复。见恶人无咎。",
+    "translation": "悔恨消失，丢失马不必去追，它会自己回来。见到恶人没有过失。"
+  },
+  {
+    "hexagram_id": 38,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "遇主于巷，无咎。",
+    "translation": "在小巷中遇到主人，没有过失。"
+  },
+  {
+    "hexagram_id": 38,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "见舆曳，其牛掣，其人天且劓。无初有终。",
+    "translation": "看到大车被拖拽，牛被牵制，那个人受了黥刑和劓刑。开始不好最终有好结果。"
+  },
+  {
+    "hexagram_id": 38,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "睽孤，遇元夫，交孚，厉无咎。",
+    "translation": "乖离孤独，遇到善人，以诚信相交，虽有危险但没有过失。"
+  },
+  {
+    "hexagram_id": 38,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "悔亡，厥宗噬肤，往何咎。",
+    "translation": "悔恨消失，同宗之人吃肉，前往有何过失。"
+  },
+  {
+    "hexagram_id": 38,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "睽孤，见豕负涂，载鬼一车，先张之弧，后说之弧，匪寇婚媾，往遇雨则吉。",
+    "translation": "乖离孤独，看见猪满身污泥，载着一车鬼怪，先张弓后放下弓，不是强盗而是来求婚的，前往遇雨则吉。"
+  },
+  {
+    "hexagram_id": 39,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "往蹇来誉。",
+    "translation": "前往有困难，回来则有赞誉。"
+  },
+  {
+    "hexagram_id": 39,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "王臣蹇蹇，匪躬之故。",
+    "translation": "君王的臣子不避艰险，不是为自身的缘故。"
+  },
+  {
+    "hexagram_id": 39,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "往蹇来反。",
+    "translation": "前往有困难，回来反而好。"
+  },
+  {
+    "hexagram_id": 39,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "往蹇来连。",
+    "translation": "前往有困难，回来则联络众人。"
+  },
+  {
+    "hexagram_id": 39,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "大蹇朋来。",
+    "translation": "大难当头，朋友来相助。"
+  },
+  {
+    "hexagram_id": 39,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "往蹇来硕，吉，利见大人。",
+    "translation": "前往有困难，回来有大收获，吉祥，利于见到大人。"
+  },
+  {
+    "hexagram_id": 40,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "无咎。",
+    "translation": "没有过失。"
+  },
+  {
+    "hexagram_id": 40,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "田获三狐，得黄矢，贞吉。",
+    "translation": "田猎捕获三只狐狸，得到黄铜箭头，守正则吉。"
+  },
+  {
+    "hexagram_id": 40,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "负且乘，致寇至，贞吝。",
+    "translation": "背负重物又乘坐车乘，招致强盗到来，守正也有遗憾。"
+  },
+  {
+    "hexagram_id": 40,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "解而拇，朋至斯孚。",
+    "translation": "解脱你的拇指，朋友来此诚信相待。"
+  },
+  {
+    "hexagram_id": 40,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "君子维有解，吉，有孚于小人。",
+    "translation": "君子只有解除困难才吉祥，对小人也要有诚信。"
+  },
+  {
+    "hexagram_id": 40,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "公用射隼于高墉之上，获之，无不利。",
+    "translation": "公侯在高墙上射猎隼鹰，捕获它，没有不利。"
+  },
+  {
+    "hexagram_id": 41,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "已事遄往，无咎，酌损之。",
+    "translation": "停下自己的事赶快去助人，没有过失，酌量减损自己。"
+  },
+  {
+    "hexagram_id": 41,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "利贞，征凶，弗损益之。",
+    "translation": "利于守正，出征凶险，不要减损而要增益他。"
+  },
+  {
+    "hexagram_id": 41,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "三人行则损一人，一人行则得其友。",
+    "translation": "三人同行就会减损一人，一人独行则会得到朋友。"
+  },
+  {
+    "hexagram_id": 41,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "损其疾，使遄有喜，无咎。",
+    "translation": "减损其疾病，使之赶快有好消息，没有过失。"
+  },
+  {
+    "hexagram_id": 41,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "或益之，十朋之龟弗克违，元吉。",
+    "translation": "有人来增益，价值十朋的龟卜也不能违背，大吉。"
+  },
+  {
+    "hexagram_id": 41,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "弗损益之，无咎，贞吉，利有攸往，得臣无家。",
+    "translation": "不减损而增益他，没有过失，守正则吉，利于有所前往，得到臣属而不限于一家。"
+  },
+  {
+    "hexagram_id": 42,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "利用为大作，元吉，无咎。",
+    "translation": "利于做大事，大吉，没有过失。"
+  },
+  {
+    "hexagram_id": 42,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "或益之，十朋之龟弗克违，永贞吉。王用亨于帝，吉。",
+    "translation": "有人来增益，价值十朋的龟卜也不能违背，永远守正则吉。君王用来祭祀天帝，吉祥。"
+  },
+  {
+    "hexagram_id": 42,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "益之用凶事，无咎。有孚中行，告公用圭。",
+    "translation": "增益用于凶荒之事，没有过失。有诚信行中道，执圭向公报告。"
+  },
+  {
+    "hexagram_id": 42,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "中行，告公从，利用为依迁国。",
+    "translation": "行中道，报告公侯获得听从，利于依附以迁国。"
+  },
+  {
+    "hexagram_id": 42,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "有孚惠心，勿问元吉。有孚惠我德。",
+    "translation": "有诚信施惠之心，不必占问就知道大吉。有诚信惠及我的德行。"
+  },
+  {
+    "hexagram_id": 42,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "莫益之，或击之，立心勿恒，凶。",
+    "translation": "没有人来增益，有人来攻击，立心不恒久，凶险。"
+  },
+  {
+    "hexagram_id": 43,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "壮于前趾，往不胜为咎。",
+    "translation": "强壮在前脚趾上，前往不能取胜反成过失。"
+  },
+  {
+    "hexagram_id": 43,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "惕号，莫夜有戎，勿恤。",
+    "translation": "警惕呼号，夜间有兵戎之事，不必忧虑。"
+  },
+  {
+    "hexagram_id": 43,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "壮于頄，有凶。君子夬夬，独行遇雨，若濡有愠，无咎。",
+    "translation": "强壮在颧骨上，凶险。君子果决地决断，独行遇雨，虽被淋湿有些恼怒，没有过失。"
+  },
+  {
+    "hexagram_id": 43,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "臀无肤，其行次且，牵羊悔亡，闻言不信。",
+    "translation": "臀部没有皮肤，行走困难，牵羊前行悔恨消失，但听到忠告却不相信。"
+  },
+  {
+    "hexagram_id": 43,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "苋陆夬夬，中行无咎。",
+    "translation": "像苋陆一样果决地决断，行中道则无过失。"
+  },
+  {
+    "hexagram_id": 43,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "无号，终有凶。",
+    "translation": "不必号叫，最终有凶险。"
+  },
+  {
+    "hexagram_id": 44,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "系于金柅，贞吉，有攸往，见凶，羸豕孚蹢躅。",
+    "translation": "拴系在金属制动器上，守正则吉，有所前往则见凶险，瘦弱的猪也在躁动不安。"
+  },
+  {
+    "hexagram_id": 44,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "包有鱼，无咎，不利宾。",
+    "translation": "厨房里有鱼，没有过失，但不利于招待宾客。"
+  },
+  {
+    "hexagram_id": 44,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "臀无肤，其行次且，厉，无大咎。",
+    "translation": "臀部没有皮肤，行走困难，有危险，但没有大过失。"
+  },
+  {
+    "hexagram_id": 44,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "包无鱼，起凶。",
+    "translation": "厨房里没有鱼，将兴起凶险。"
+  },
+  {
+    "hexagram_id": 44,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "以杞包瓜，含章，有陨自天。",
+    "translation": "用杞柳包裹瓜果，蕴含文采，有好事从天而降。"
+  },
+  {
+    "hexagram_id": 44,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "姤其角，吝，无咎。",
+    "translation": "相遇在角上，有遗憾，没有过失。"
+  },
+  {
+    "hexagram_id": 45,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "有孚不终，乃乱乃萃，若号，一握为笑，勿恤，往无咎。",
+    "translation": "诚信不能坚持到底，就混乱地聚拢，如果号哭，一握手之间就变为欢笑，不必忧虑，前往没有过失。"
+  },
+  {
+    "hexagram_id": 45,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "引吉，无咎，孚乃利用禴。",
+    "translation": "引导吉祥，没有过失，诚信则利于用简薄的祭祀。"
+  },
+  {
+    "hexagram_id": 45,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "萃如嗟如，无攸利，往无咎，小吝。",
+    "translation": "聚而又叹息，没有什么好处，前往没有过失，稍有遗憾。"
+  },
+  {
+    "hexagram_id": 45,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "大吉，无咎。",
+    "translation": "大吉，没有过失。"
+  },
+  {
+    "hexagram_id": 45,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "萃有位，无咎。匪孚，元永贞，悔亡。",
+    "translation": "聚而有地位，没有过失。尚未取信于人，宜长久守正，悔恨消失。"
+  },
+  {
+    "hexagram_id": 45,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "赍咨涕洟，无咎。",
+    "translation": "叹息流泪，没有过失。"
+  },
+  {
+    "hexagram_id": 46,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "允升，大吉。",
+    "translation": "诚信上升，大吉。"
+  },
+  {
+    "hexagram_id": 46,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "孚乃利用禴，无咎。",
+    "translation": "诚信则利于简薄的祭祀，没有过失。"
+  },
+  {
+    "hexagram_id": 46,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "升虚邑。",
+    "translation": "上升到空虚的城邑。"
+  },
+  {
+    "hexagram_id": 46,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "王用亨于岐山，吉无咎。",
+    "translation": "君王在岐山祭祀，吉祥没有过失。"
+  },
+  {
+    "hexagram_id": 46,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "贞吉，升阶。",
+    "translation": "守正则吉，登上台阶。"
+  },
+  {
+    "hexagram_id": 46,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "冥升，利于不息之贞。",
+    "translation": "昏暗地上升，利于不息地守正。"
+  },
+  {
+    "hexagram_id": 47,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "臀困于株木，入于幽谷，三岁不觌。",
+    "translation": "臀部困在木桩上，进入幽深的谷底，三年不能露面。"
+  },
+  {
+    "hexagram_id": 47,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "困于酒食，朱绂方来，利用亨祀，征凶，无咎。",
+    "translation": "困于酒食之中，红色的官服即将到来，利于举行祭祀，出征凶险，没有过失。"
+  },
+  {
+    "hexagram_id": 47,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "困于石，据于蒺藜，入于其宫，不见其妻，凶。",
+    "translation": "困在石头中，倚靠在蒺藜上，进入家中，见不到妻子，凶险。"
+  },
+  {
+    "hexagram_id": 47,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "来徐徐，困于金车，吝，有终。",
+    "translation": "缓慢地到来，困于金车之中，有遗憾，但有好结果。"
+  },
+  {
+    "hexagram_id": 47,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "劓刖，困于赤绂，乃徐有说，利用祭祀。",
+    "translation": "受刑割鼻断足，困于红色的官服中，慢慢地才能解脱，利于举行祭祀。"
+  },
+  {
+    "hexagram_id": 47,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "困于葛藟，于臲卼，曰动悔。有悔，征吉。",
+    "translation": "困在葛藤中，处于不安的状态，说到行动就悔恨。有了悔悟，出征吉祥。"
+  },
+  {
+    "hexagram_id": 48,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "井泥不食，旧井无禽。",
+    "translation": "井水浑浊不能食用，旧井连禽兽也不来了。"
+  },
+  {
+    "hexagram_id": 48,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "井谷射鲋，瓮敝漏。",
+    "translation": "在井底射小鱼，汲水的瓮破漏了。"
+  },
+  {
+    "hexagram_id": 48,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "井渫不食，为我心恻，可用汲，王明，并受其福。",
+    "translation": "井水清洁却不被食用，使我心中悲伤，可以汲取，君王圣明，大家共同受福。"
+  },
+  {
+    "hexagram_id": 48,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "井甃，无咎。",
+    "translation": "修砌井壁，没有过失。"
+  },
+  {
+    "hexagram_id": 48,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "井冽，寒泉食。",
+    "translation": "井水清凉，寒泉可食。"
+  },
+  {
+    "hexagram_id": 48,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "井收勿幕，有孚元吉。",
+    "translation": "井水收汲不要盖上，有诚信则大吉。"
+  },
+  {
+    "hexagram_id": 49,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "巩用黄牛之革。",
+    "translation": "用黄牛皮的绳索牢牢捆缚。"
+  },
+  {
+    "hexagram_id": 49,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "已日乃革之，征吉，无咎。",
+    "translation": "到已日才进行变革，出征吉祥，没有过失。"
+  },
+  {
+    "hexagram_id": 49,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "征凶，贞厉，革言三就，有孚。",
+    "translation": "出征凶险，守正防危，变革的言论须多次讨论才能成就，有诚信。"
+  },
+  {
+    "hexagram_id": 49,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "悔亡，有孚改命，吉。",
+    "translation": "悔恨消失，有诚信地改变天命，吉祥。"
+  },
+  {
+    "hexagram_id": 49,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "大人虎变，未占有孚。",
+    "translation": "大人像老虎一样变革，不必占卜就有诚信。"
+  },
+  {
+    "hexagram_id": 49,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "君子豹变，小人革面，征凶，居贞吉。",
+    "translation": "君子像豹子一样变革，小人只是变换面色，出征凶险，安居守正则吉。"
+  },
+  {
+    "hexagram_id": 50,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "鼎颠趾，利出否，得妾以其子，无咎。",
+    "translation": "鼎颠倒脚朝上，利于倾倒废物，得到妾因她生了儿子，没有过失。"
+  },
+  {
+    "hexagram_id": 50,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "鼎有实，我仇有疾，不我能即，吉。",
+    "translation": "鼎中有食物，我的对头有病，不能接近我，吉祥。"
+  },
+  {
+    "hexagram_id": 50,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "鼎耳革，其行塞，雉膏不食，方雨亏悔，终吉。",
+    "translation": "鼎耳脱落，移动不便，山鸡的膏肉不能食用，正要下雨悔恨减少，最终吉祥。"
+  },
+  {
+    "hexagram_id": 50,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "鼎折足，覆公餗，其形渥，凶。",
+    "translation": "鼎足折断，倾覆了公侯的美食，形状狼藉，凶险。"
+  },
+  {
+    "hexagram_id": 50,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "鼎黄耳金铉，利贞。",
+    "translation": "鼎有黄色的耳和金属的铉，利于守正。"
+  },
+  {
+    "hexagram_id": 50,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "鼎玉铉，大吉，无不利。",
+    "translation": "鼎有玉制的铉，大吉，没有不利。"
+  },
+  {
+    "hexagram_id": 51,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "震来虩虩，后笑言哑哑，吉。",
+    "translation": "雷声袭来令人恐惧，后来谈笑自如，吉祥。"
+  },
+  {
+    "hexagram_id": 51,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "震来厉，亿丧贝，跻于九陵，勿逐，七日得。",
+    "translation": "雷声袭来有危险，大量丧失财币，登上九重高陵，不必追寻，七天内可以失而复得。"
+  },
+  {
+    "hexagram_id": 51,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "震苏苏，震行无眚。",
+    "translation": "雷声惊惧不安，在震惊中前行没有灾祸。"
+  },
+  {
+    "hexagram_id": 51,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "震遂泥。",
+    "translation": "震惊之中陷入泥沼。"
+  },
+  {
+    "hexagram_id": 51,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "震往来厉，亿无丧，有事。",
+    "translation": "雷声往来有危险，但不会有大的损失，有事需要处理。"
+  },
+  {
+    "hexagram_id": 51,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "震索索，视矍矍，征凶。震不于其躬，于其邻，无咎。婚媾有言。",
+    "translation": "震惊中畏缩不安，目光惊恐，出征凶险。雷震不在自己身上而在邻人身上，没有过失。婚姻有闲言。"
+  },
+  {
+    "hexagram_id": 52,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "艮其趾，无咎，利永贞。",
+    "translation": "停止在脚趾上，没有过失，利于永远守正。"
+  },
+  {
+    "hexagram_id": 52,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "艮其腓，不拯其随，其心不快。",
+    "translation": "停止在小腿上，不能拯救追随的人，心中不快。"
+  },
+  {
+    "hexagram_id": 52,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "艮其限，列其夤，厉薰心。",
+    "translation": "停止在腰部，撕裂了背脊肉，危险如烈火薰心。"
+  },
+  {
+    "hexagram_id": 52,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "艮其身，无咎。",
+    "translation": "停止在身体上，没有过失。"
+  },
+  {
+    "hexagram_id": 52,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "艮其辅，言有序，悔亡。",
+    "translation": "停止在嘴上，言语有条理，悔恨消失。"
+  },
+  {
+    "hexagram_id": 52,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "敦艮，吉。",
+    "translation": "敦厚地静止，吉祥。"
+  },
+  {
+    "hexagram_id": 53,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "鸿渐于干，小子厉，有言，无咎。",
+    "translation": "鸿雁渐进到岸边，小子有危险，有闲言，没有过失。"
+  },
+  {
+    "hexagram_id": 53,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "鸿渐于磐，饮食衎衎，吉。",
+    "translation": "鸿雁渐进到磐石上，饮食和乐，吉祥。"
+  },
+  {
+    "hexagram_id": 53,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "鸿渐于陆，夫征不复，妇孕不育，凶，利御寇。",
+    "translation": "鸿雁渐进到高地上，丈夫出征不再回来，妇人怀孕不能养育，凶险，利于抵御盗寇。"
+  },
+  {
+    "hexagram_id": 53,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "鸿渐于木，或得其桷，无咎。",
+    "translation": "鸿雁渐进到树上，或许找到平直的枝柯栖息，没有过失。"
+  },
+  {
+    "hexagram_id": 53,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "鸿渐于陵，妇三岁不孕，终莫之胜，吉。",
+    "translation": "鸿雁渐进到山陵上，妇人三年不怀孕，最终没有人能胜过她，吉祥。"
+  },
+  {
+    "hexagram_id": 53,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "鸿渐于陆，其羽可用为仪，吉。",
+    "translation": "鸿雁渐进到高地上，它的羽毛可用作仪饰，吉祥。"
+  },
+  {
+    "hexagram_id": 54,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "归妹以娣，跛能履，征吉。",
+    "translation": "少女出嫁为偏房，跛脚也能行走，出征吉祥。"
+  },
+  {
+    "hexagram_id": 54,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "眇能视，利幽人之贞。",
+    "translation": "独眼也能看，利于隐士守正。"
+  },
+  {
+    "hexagram_id": 54,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "归妹以须，反归以娣。",
+    "translation": "少女出嫁为正室，反而被退回做了偏房。"
+  },
+  {
+    "hexagram_id": 54,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "归妹愆期，迟归有时。",
+    "translation": "少女出嫁延误了婚期，迟嫁是因为等待适当的时候。"
+  },
+  {
+    "hexagram_id": 54,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "帝乙归妹，其君之袂，不如其娣之袂良，月几望，吉。",
+    "translation": "帝乙嫁出少女，正室的衣饰不如偏房的衣饰好，月近圆时，吉祥。"
+  },
+  {
+    "hexagram_id": 54,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "女承筐无实，士刲羊无血，无攸利。",
+    "translation": "女子捧着祭筐却是空的，男子宰羊却没有血，没有什么好处。"
+  },
+  {
+    "hexagram_id": 55,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "遇其配主，虽旬无咎，往有尚。",
+    "translation": "遇到相配的主人，虽势均力敌但没有过失，前往会得到推崇。"
+  },
+  {
+    "hexagram_id": 55,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "丰其蔀，日中见斗，往得疑疾，有孚发若，吉。",
+    "translation": "遮蔽丰大，正午看到北斗星，前往会得到疑惧之病，有诚信才能舒展，吉祥。"
+  },
+  {
+    "hexagram_id": 55,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "丰其沛，日中见沬，折其右肱，无咎。",
+    "translation": "遮蔽更大，正午看到小星，折断了右臂，没有过失。"
+  },
+  {
+    "hexagram_id": 55,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "丰其蔀，日中见斗，遇其夷主，吉。",
+    "translation": "遮蔽丰大，正午看到北斗星，遇到平等的主人，吉祥。"
+  },
+  {
+    "hexagram_id": 55,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "来章，有庆誉，吉。",
+    "translation": "招来有文采的人，有喜庆和赞誉，吉祥。"
+  },
+  {
+    "hexagram_id": 55,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "丰其屋，蔀其家，窥其户，阒其无人，三岁不觌，凶。",
+    "translation": "丰大其房屋，遮蔽其家室，从门缝窥视，寂静无人，三年不见人影，凶险。"
+  },
+  {
+    "hexagram_id": 56,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "旅琐琐，斯其所取灾。",
+    "translation": "旅途中琐碎吝啬，这是自取灾祸。"
+  },
+  {
+    "hexagram_id": 56,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "旅即次，怀其资，得童仆，贞。",
+    "translation": "旅客住进旅舍，怀中带着资财，得到童仆，守正。"
+  },
+  {
+    "hexagram_id": 56,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "旅焚其次，丧其童仆，贞厉。",
+    "translation": "旅舍被焚毁，失去了童仆，守正防危。"
+  },
+  {
+    "hexagram_id": 56,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "旅于处，得其资斧，我心不快。",
+    "translation": "旅客在住处，得到资财和工具，但心中不快。"
+  },
+  {
+    "hexagram_id": 56,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "射雉一矢亡，终以誉命。",
+    "translation": "射野鸡丢失了一支箭，最终因美誉而得封命。"
+  },
+  {
+    "hexagram_id": 56,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "鸟焚其巢，旅人先笑后号咷，丧牛于易，凶。",
+    "translation": "鸟巢被焚毁，旅人先笑后号哭，在边界丢失了牛，凶险。"
+  },
+  {
+    "hexagram_id": 57,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "进退，利武人之贞。",
+    "translation": "进退不决，利于武人守正。"
+  },
+  {
+    "hexagram_id": 57,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "巽在床下，用史巫纷若，吉无咎。",
+    "translation": "伏在床下，用史巫频繁祭祀，吉祥没有过失。"
+  },
+  {
+    "hexagram_id": 57,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "频巽，吝。",
+    "translation": "频繁地顺从，有遗憾。"
+  },
+  {
+    "hexagram_id": 57,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "悔亡，田获三品。",
+    "translation": "悔恨消失，田猎获得三种猎物。"
+  },
+  {
+    "hexagram_id": 57,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "贞吉悔亡，无初有终，先庚三日，后庚三日，吉。",
+    "translation": "守正则吉悔恨消失，开始不好但有好结果，庚日前三天和后三天，吉祥。"
+  },
+  {
+    "hexagram_id": 57,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "巽在床下，丧其资斧，贞凶。",
+    "translation": "伏在床下，丧失了资财和工具，守正也凶险。"
+  },
+  {
+    "hexagram_id": 58,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "和兑，吉。",
+    "translation": "和悦相处，吉祥。"
+  },
+  {
+    "hexagram_id": 58,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "孚兑，吉，悔亡。",
+    "translation": "诚信而和悦，吉祥，悔恨消失。"
+  },
+  {
+    "hexagram_id": 58,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "来兑，凶。",
+    "translation": "前来求悦，凶险。"
+  },
+  {
+    "hexagram_id": 58,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "商兑，未宁，介疾有喜。",
+    "translation": "商议和悦之事，尚未安宁，像疾病去后有喜。"
+  },
+  {
+    "hexagram_id": 58,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "孚于剥，有厉。",
+    "translation": "诚信于剥损之人，有危险。"
+  },
+  {
+    "hexagram_id": 58,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "引兑。",
+    "translation": "引诱他人来和悦。"
+  },
+  {
+    "hexagram_id": 59,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "用拯马壮，吉。",
+    "translation": "用强壮的马拯救，吉祥。"
+  },
+  {
+    "hexagram_id": 59,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "涣奔其机，悔亡。",
+    "translation": "涣散奔向几案，悔恨消失。"
+  },
+  {
+    "hexagram_id": 59,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "涣其躬，无悔。",
+    "translation": "涣散自身，没有悔恨。"
+  },
+  {
+    "hexagram_id": 59,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "涣其群，元吉。涣有丘，匪夷所思。",
+    "translation": "涣散小群体，大吉。涣散中有山丘般的聚合，不是常人所能想到的。"
+  },
+  {
+    "hexagram_id": 59,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "涣汗其大号，涣王居，无咎。",
+    "translation": "像出汗不可收回一样发布号令，涣散君王的居所来赈济，没有过失。"
+  },
+  {
+    "hexagram_id": 59,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "涣其血，去逖出，无咎。",
+    "translation": "涣散其伤害，远离忧患而出，没有过失。"
+  },
+  {
+    "hexagram_id": 60,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "不出户庭，无咎。",
+    "translation": "不走出家门，没有过失。"
+  },
+  {
+    "hexagram_id": 60,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "不出门庭，凶。",
+    "translation": "不走出庭院，凶险。"
+  },
+  {
+    "hexagram_id": 60,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "不节若，则嗟若，无咎。",
+    "translation": "不知节制的样子，就会叹息的样子，没有过失。"
+  },
+  {
+    "hexagram_id": 60,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "安节，亨。",
+    "translation": "安于节制，亨通。"
+  },
+  {
+    "hexagram_id": 60,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "甘节，吉，往有尚。",
+    "translation": "甘于节制，吉祥，前往会受到推崇。"
+  },
+  {
+    "hexagram_id": 60,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "苦节，贞凶，悔亡。",
+    "translation": "苦于节制，守正也凶险，悔恨消失。"
+  },
+  {
+    "hexagram_id": 61,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "虞吉，有它不燕。",
+    "translation": "安守则吉，有意外则不安。"
+  },
+  {
+    "hexagram_id": 61,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "鹤鸣在阴，其子和之，我有好爵，吾与尔靡之。",
+    "translation": "鹤在树阴下鸣叫，小鹤应和，我有好的酒器，愿意与你共享。"
+  },
+  {
+    "hexagram_id": 61,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "得敌，或鼓或罢，或泣或歌。",
+    "translation": "遇到敌人，有的击鼓有的休战，有的哭泣有的高歌。"
+  },
+  {
+    "hexagram_id": 61,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "月几望，马匹亡，无咎。",
+    "translation": "月亮将近圆时，马匹丢失了，没有过失。"
+  },
+  {
+    "hexagram_id": 61,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "有孚挛如，无咎。",
+    "translation": "有诚信紧密相连，没有过失。"
+  },
+  {
+    "hexagram_id": 61,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "翰音登于天，贞凶。",
+    "translation": "鸡鸣之声传到天上，守正也凶险。"
+  },
+  {
+    "hexagram_id": 62,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "飞鸟以凶。",
+    "translation": "飞鸟带来凶险。"
+  },
+  {
+    "hexagram_id": 62,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "过其祖，遇其妣，不及其君，遇其臣，无咎。",
+    "translation": "越过祖父，遇到祖母，不及君王，遇到臣子，没有过失。"
+  },
+  {
+    "hexagram_id": 62,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "弗过防之，从或戕之，凶。",
+    "translation": "不能过度防备，追随或许会遭到伤害，凶险。"
+  },
+  {
+    "hexagram_id": 62,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "无咎，弗过遇之，往厉必戒，勿用永贞。",
+    "translation": "没有过失，不过分而与之相遇，前往有危险必须戒备，不要永远守正不变。"
+  },
+  {
+    "hexagram_id": 62,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "密云不雨，自我西郊，公弋取彼在穴。",
+    "translation": "密云不雨，从我西郊而来，公侯用带绳的箭在穴中猎取。"
+  },
+  {
+    "hexagram_id": 62,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "弗遇过之，飞鸟离之，凶，是谓灾眚。",
+    "translation": "不能相遇反而超过，飞鸟遭到网罗，凶险，这叫做灾祸。"
+  },
+  {
+    "hexagram_id": 63,
+    "position": 1,
+    "yao_name": "初九",
+    "yao_type": "阳",
+    "original_text": "曳其轮，濡其尾，无咎。",
+    "translation": "拖曳车轮过河，沾湿了尾巴，没有过失。"
+  },
+  {
+    "hexagram_id": 63,
+    "position": 2,
+    "yao_name": "六二",
+    "yao_type": "阴",
+    "original_text": "妇丧其茀，勿逐，七日得。",
+    "translation": "妇人丢失了首饰，不必追寻，七天内可以找回。"
+  },
+  {
+    "hexagram_id": 63,
+    "position": 3,
+    "yao_name": "九三",
+    "yao_type": "阳",
+    "original_text": "高宗伐鬼方，三年克之，小人勿用。",
+    "translation": "高宗征伐鬼方，三年才攻克，不要任用小人。"
+  },
+  {
+    "hexagram_id": 63,
+    "position": 4,
+    "yao_name": "六四",
+    "yao_type": "阴",
+    "original_text": "繻有衣袽，终日戒。",
+    "translation": "好衣服也有破败的时候，整天保持警惕。"
+  },
+  {
+    "hexagram_id": 63,
+    "position": 5,
+    "yao_name": "九五",
+    "yao_type": "阳",
+    "original_text": "东邻杀牛，不如西邻之禴祭，实受其福。",
+    "translation": "东邻杀牛举行盛大祭祀，不如西邻简薄的禴祭，实实在在受到福佑。"
+  },
+  {
+    "hexagram_id": 63,
+    "position": 6,
+    "yao_name": "上六",
+    "yao_type": "阴",
+    "original_text": "濡其首，厉。",
+    "translation": "沾湿了头部，危险。"
+  },
+  {
+    "hexagram_id": 64,
+    "position": 1,
+    "yao_name": "初六",
+    "yao_type": "阴",
+    "original_text": "濡其尾，吝。",
+    "translation": "沾湿了尾巴，有遗憾。"
+  },
+  {
+    "hexagram_id": 64,
+    "position": 2,
+    "yao_name": "九二",
+    "yao_type": "阳",
+    "original_text": "曳其轮，贞吉。",
+    "translation": "拖曳车轮，守正则吉。"
+  },
+  {
+    "hexagram_id": 64,
+    "position": 3,
+    "yao_name": "六三",
+    "yao_type": "阴",
+    "original_text": "未济，征凶，利涉大川。",
+    "translation": "尚未完成，出征凶险，但利于涉越大河。"
+  },
+  {
+    "hexagram_id": 64,
+    "position": 4,
+    "yao_name": "九四",
+    "yao_type": "阳",
+    "original_text": "贞吉悔亡，震用伐鬼方，三年有赏于大国。",
+    "translation": "守正则吉悔恨消失，以雷霆之势征伐鬼方，三年后在大国获得封赏。"
+  },
+  {
+    "hexagram_id": 64,
+    "position": 5,
+    "yao_name": "六五",
+    "yao_type": "阴",
+    "original_text": "贞吉无悔，君子之光，有孚，吉。",
+    "translation": "守正则吉没有悔恨，君子的光辉，有诚信，吉祥。"
+  },
+  {
+    "hexagram_id": 64,
+    "position": 6,
+    "yao_name": "上九",
+    "yao_type": "阳",
+    "original_text": "有孚于饮酒，无咎，濡其首，有孚失是。",
+    "translation": "有诚信地饮酒，没有过失，但沾湿了头部，虽有诚信却失去了正道。"
+  }
+]
