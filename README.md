@@ -1,8 +1,11 @@
 # 易象（YiXiang）
 
 本地周易六爻占卜助手
+
 此项目含有未经科学证实的内容，请仔细甄别
-此项目目前还有较多bugs
+
+此项目目前还有较多bugs，未来一段时间会进行修复。
+（这个readme其实也会再改改）
 
 ## 简介
 
@@ -22,24 +25,6 @@
 - SQLite + SQLAlchemy（数据存储）
 - PyInstaller（打包）
 
-## 环境搭建
-
-```bash
-# 创建虚拟环境
-python -m venv venv
-
-# 激活虚拟环境（Windows）
-.\venv\Scripts\Activate.ps1
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-## 运行
-
-```bash
-python main.py
-```
 
 ## 项目结构
 
