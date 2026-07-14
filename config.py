@@ -26,7 +26,7 @@ def _get_resource_dir():
 # 应用信息
 APP_NAME = "易象"
 APP_NAME_EN = "YiXiang"
-VERSION = "1.0.0"
+VERSION = "1.0.2"
 
 # 应用根目录
 APP_DIR = _get_app_dir()
@@ -46,6 +46,10 @@ INTERPRETATIONS_JSON = os.path.join(DATA_DIR, "interpretations.json")
 RESOURCES_DIR = os.path.join(RESOURCE_DIR, "resources")
 ICONS_DIR = os.path.join(RESOURCES_DIR, "icons")
 IMAGES_DIR = os.path.join(RESOURCES_DIR, "images")
+
+# 硬币图片
+COIN_FRONT_IMG = os.path.join(IMAGES_DIR, "zheng.png")
+COIN_BACK_IMG = os.path.join(IMAGES_DIR, "fan.png")
 
 # 六爻规则
 COIN_FRONT = 3  # 正面

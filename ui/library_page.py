@@ -8,6 +8,7 @@ from services.interpretation_service import (get_all_hexagrams,
                                               get_hexagram_by_id,
                                               get_yao_lines,
                                               get_interpretations)
+from ui.hexagram_renderer import render_hexagram_block
 
 
 class LibraryPage(QWidget):
@@ -77,7 +78,7 @@ class LibraryPage(QWidget):
         """构建详情HTML"""
         html = f"""
         <div style='font-family: Microsoft YaHei;'>
-        <h2 style='color:#2c2c2c;'>{hexagram['name']}</h2>
+        {render_hexagram_block(hexagram['name'], hexagram['binary_code'])}
         <p style='color:#888;'>上卦：{hexagram['upper_trigram']} | 下卦：{hexagram['lower_trigram']}</p>
         <hr/>
         <h3 style='color:#4a4a4a;'>卦辞</h3>

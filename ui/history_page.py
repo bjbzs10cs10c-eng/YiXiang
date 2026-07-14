@@ -6,6 +6,7 @@ from PySide6.QtWidgets import (QWidget, QHBoxLayout, QVBoxLayout, QListWidget,
 from PySide6.QtCore import Qt
 from services.history_service import get_records, get_record_detail, delete_record
 from services.interpretation_service import get_hexagram_by_id, get_yao_lines, get_interpretations
+from ui.hexagram_renderer import render_hexagram_block, render_dual_hexagram_block
 
 
 class HistoryPage(QWidget):
@@ -83,10 +84,20 @@ class HistoryPage(QWidget):
         html += f"<p style='color:#888; font-size:13px;'>{record['create_time']}</p>"
         html += "<hr/>"
 
-        html += f"<h2 style='color:#2c2c2c;'>本卦：{orig_hex['name']}</h2>"
+        moving = record.get('moving_lines', [])
+        moving_positions = {m['position'] for m in moving}
+
+        if changed_hex:
+            html += render_dual_hexagram_block(
+                orig_hex['name'], orig_hex['binary_code'],
+                changed_hex['name'], changed_hex['binary_code'],
+                moving_positions
+            )
+        else:
+            html += render_hexagram_block(orig_hex['name'], orig_hex['binary_code'], moving_positions)
+
         html += f"<p style='font-size:15px;'>卦辞：{orig_hex['gua_ci']}</p>"
 
-        moving = record.get('moving_lines', [])
         if moving:
             moving_str = "、".join([f"第{m['position']}爻" for m in moving])
             html += f"<p style='color:#b8860b;'>动爻：{moving_str}</p>"

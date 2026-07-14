@@ -36,10 +36,6 @@ QLabel#sectionLabel {
     padding-bottom: 4px;
 }
 
-QLabel#coinLabel {
-    font-size: 36px;
-}
-
 QLabel#readingLabel {
     font-size: 18px;
     color: #4a4a4a;

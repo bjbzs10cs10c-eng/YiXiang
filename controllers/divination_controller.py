@@ -7,18 +7,19 @@ from services.history_service import save_record as history_save
 class DivinationController:
     """占卜控制器，UI层通过此控制器调用服务层"""
 
-    def perform_divination(self, question: str) -> dict:
+    def perform_divination(self, question: str, toss_results: list = None) -> dict:
         """执行完整占卜流程
 
         Args:
             question: 占问事项
+            toss_results: 已有的投掷结果列表（可选）
 
         Returns:
             完整占卜结果
         """
         if not question or not question.strip():
             raise ValueError("请输入占问事项")
-        return start_divination(question.strip())
+        return start_divination(question.strip(), toss_results)
 
     def save_result(self, result: dict) -> int:
         """保存占卜结果到历史记录

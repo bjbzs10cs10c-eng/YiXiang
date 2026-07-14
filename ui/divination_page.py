@@ -4,52 +4,60 @@ from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
                                 QPushButton, QLineEdit, QTextBrowser,
                                 QFrame, QScrollArea, QGridLayout)
 from PySide6.QtCore import Signal, Qt, QTimer
+from PySide6.QtGui import QPixmap
 
 from core.coin import toss_three_coins
 from controllers.divination_controller import DivinationController
+from config import COIN_FRONT_IMG, COIN_BACK_IMG
+from ui.hexagram_renderer import render_hexagram_block, render_dual_hexagram_block
 
 
 class CoinWidget(QLabel):
-    """单个铜钱控件，用QTimer切换 ●/○ 模拟翻转"""
+    """单个铜钱控件，用 QPixmap 切换正反面图片模拟翻转"""
 
     def __init__(self):
-        super().__init__("●")
+        super().__init__()
+        self.front_pixmap = QPixmap(COIN_FRONT_IMG).scaled(
+            80, 80, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation
+        )
+        self.back_pixmap = QPixmap(COIN_BACK_IMG).scaled(
+            80, 80, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation
+        )
+        self._showing_front = True
+        self.setPixmap(self.front_pixmap)
         self.setObjectName("coinLabel")
         self.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.setFixedSize(60, 60)
-        self.setStyleSheet("""
-            QLabel {
-                font-size: 36px;
-                color: #b8860b;
-                background-color: #faf8f4;
-                border: 2px solid #d4a843;
-                border-radius: 30px;
-            }
-        """)
+        self.setFixedSize(80, 80)
         self._timer = None
         self._flip_count = 0
         self._max_flips = 6
+        self._final_is_front = True
         self._on_finished = None
 
-    def flip(self, on_finished):
-        """翻转动画：用QTimer切换 ● 和 ○ 模拟翻转"""
+    def flip(self, final_is_front, on_finished):
+        """翻转动画：用 QTimer 切换图片模拟翻转
+
+        Args:
+            final_is_front: True=停在正面, False=停在反面
+            on_finished: 动画完成回调
+        """
+        self._final_is_front = final_is_front
         self._on_finished = on_finished
         self._flip_count = 0
+        self._showing_front = True
         self._timer = QTimer(self)
         self._timer.timeout.connect(self._do_flip)
         self._timer.start(100)
 
     def _do_flip(self):
-        """执行一次切换"""
-        if self.text() == "●":
-            self.setText("○")
-        else:
-            self.setText("●")
+        """执行一次翻转切换"""
+        self._showing_front = not self._showing_front
+        self.setPixmap(self.front_pixmap if self._showing_front else self.back_pixmap)
 
         self._flip_count += 1
         if self._flip_count >= self._max_flips:
             self._timer.stop()
-            self.setText("●")
+            self.setPixmap(self.front_pixmap if self._final_is_front else self.back_pixmap)
             if self._on_finished:
                 cb = self._on_finished
                 self._on_finished = None
@@ -109,7 +117,7 @@ class DivinationPage(QWidget):
         toss_grid = QGridLayout(toss_widget)
         toss_grid.setSpacing(4)
         for i in range(6):
-            lbl = QLabel(f"第{i+1}爻：待投掷")
+            lbl = QLabel(f"第{6 - i}爻：待投掷")
             lbl.setStyleSheet("font-size: 13px; color: #999; padding: 4px;")
             self.toss_labels.append(lbl)
             toss_grid.addWidget(lbl, i, 0)
@@ -151,8 +159,8 @@ class DivinationPage(QWidget):
         self.current_toss = 0
         self.is_tossing = False
 
-        for lbl in self.toss_labels:
-            lbl.setText("待投掷")
+        for i, lbl in enumerate(self.toss_labels):
+            lbl.setText(f"第{6 - i}爻：待投掷")
             lbl.setStyleSheet("font-size: 13px; color: #999; padding: 4px;")
 
         self.progress_label.setText("点击按钮投掷铜钱（第1次/共6次）")
@@ -182,13 +190,11 @@ class DivinationPage(QWidget):
         def on_coin_flipped():
             flip_count[0] += 1
             if flip_count[0] >= 3:
-                # 所有铜钱翻转完成
                 self.show_toss_result(result, self.current_toss)
                 self.current_toss += 1
                 self.is_tossing = False
 
                 if self.current_toss >= 6:
-                    # 六次完成
                     self.progress_label.setText("六次投掷完成，正在解析卦象...")
                     QTimer.singleShot(500, self.finish_divination)
                 else:
@@ -196,9 +202,10 @@ class DivinationPage(QWidget):
                     self.toss_btn.setText(f"投掷铜钱（第{self.current_toss + 1}次/共6次）")
                     self.progress_label.setText(f"第{self.current_toss}次完成，继续投掷")
 
-        # 依次翻转三个铜钱
+        # 依次翻转三个铜钱，每枚根据投掷结果显示最终正反面
         for i, coin in enumerate(self.coins):
-            QTimer.singleShot(i * 150, lambda c=coin, cb=on_coin_flipped: c.flip(cb))
+            is_front = result["coins"][i] == 3
+            QTimer.singleShot(i * 150, lambda c=coin, f=is_front, cb=on_coin_flipped: c.flip(f, cb))
 
     def show_toss_result(self, result, index):
         """显示单次投掷结果"""
@@ -218,7 +225,7 @@ class DivinationPage(QWidget):
         """完成占卜，生成结果"""
         question = self.question_input.text().strip()
         try:
-            result = self.controller.perform_divination(question)
+            result = self.controller.perform_divination(question, self.tosses)
             self.controller.save_result(result)
             self.divination_done.emit(result)
             self.show_result(result)
@@ -244,38 +251,41 @@ class DivinationPage(QWidget):
 
         html = "<div style='font-family: Microsoft YaHei; line-height: 1.8;'>"
 
-        # 问题
         html += f"<p style='color:#888;'>占问：<b style='color:#333;'>{result['question']}</b></p>"
         html += f"<p style='color:#888; font-size:13px;'>{result['time']}</p>"
         html += "<hr/>"
 
-        # 本卦
-        html += f"<h2 style='color:#2c2c2c;'>本卦：{orig['name']}</h2>"
+        moving_positions = {m["position"] for m in moving}
+
+        if changed:
+            html += render_dual_hexagram_block(
+                orig['name'], orig['binary_code'],
+                changed['name'], changed['binary_code'],
+                moving_positions
+            )
+        else:
+            html += render_hexagram_block(orig['name'], orig['binary_code'], moving_positions)
+
         html += f"<p style='color:#888; font-size:13px;'>上卦：{orig['upper_trigram']} | 下卦：{orig['lower_trigram']}</p>"
         html += f"<p style='font-size:15px;'>卦辞：{orig['gua_ci']}</p>"
         html += f"<p style='color:#555; font-size:14px;'>象辞：{orig['xiang_ci']}</p>"
 
-        # 动爻
         if moving_count > 0:
             moving_str = "、".join([f"第{m['position']}爻({m['name']})" for m in moving])
             html += f"<p style='color:#b8860b; font-weight:bold;'>动爻：{moving_str}（共{moving_count}个）</p>"
         else:
             html += "<p style='color:#555;'>静卦（无动爻）</p>"
 
-        # 变卦
         if changed:
             html += f"<h2 style='color:#2c2c2c; margin-top:20px;'>变卦：{changed['name']}</h2>"
             html += f"<p style='color:#888; font-size:13px;'>上卦：{changed['upper_trigram']} | 下卦：{changed['lower_trigram']}</p>"
             html += f"<p style='font-size:15px;'>卦辞：{changed['gua_ci']}</p>"
 
-        # 断卦
         html += "<hr/>"
         html += "<p style='font-size:16px; color:#4a4a4a; background-color:#faf8f4; padding:10px; border:1px solid #e0d8c8; border-radius:4px;'>"
         html += f"<b>断卦（{result['reading_source']}）：</b>{result['reading_text']}</p>"
 
-        # 爻辞
         html += "<hr/><h3 style='color:#4a4a4a;'>本卦爻辞</h3>"
-        moving_positions = {m["position"] for m in moving}
         for yl in result["original_yao_lines"]:
             if yl["position"] <= 6:
                 moving_mark = " ← 动爻" if yl["position"] in moving_positions else ""
@@ -284,7 +294,6 @@ class DivinationPage(QWidget):
                 if yl.get("translation"):
                     html += f"<p style='color:#888; font-size:13px; margin-left:20px;'>{yl['translation']}</p>"
 
-        # 解释
         interps = result["original_interpretations"]
         if interps:
             html += "<hr/><h3 style='color:#4a4a4a;'>卦象解释</h3>"
@@ -303,8 +312,8 @@ class DivinationPage(QWidget):
         self.question_input.clear()
         self.tosses = []
         self.current_toss = 0
-        for lbl in self.toss_labels:
-            lbl.setText("待投掷")
+        for i, lbl in enumerate(self.toss_labels):
+            lbl.setText(f"第{6 - i}爻：待投掷")
             lbl.setStyleSheet("font-size: 13px; color: #999; padding: 4px;")
         self.progress_label.setText("点击下方按钮开始投掷铜钱（共六次）")
         self.toss_btn.setText("开始投掷")

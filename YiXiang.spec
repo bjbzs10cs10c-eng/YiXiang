@@ -16,9 +16,10 @@ a = Analysis(
         ('data/interpretations.json', 'data'),
         # 打包建表SQL
         ('database/schema.sql', 'database'),
+        ('resources/images/zheng.png', 'resources/images'),
+        ('resources/images/fan.png', 'resources/images'),
     ],
     hiddenimports=[
-        # 确保所有模块被正确收集
         'core.coin',
         'core.yao',
         'core.hexagram',
@@ -29,6 +30,7 @@ a = Analysis(
         'controllers.divination_controller',
         'database.database',
         'scripts.init_database',
+        'ui.hexagram_renderer',
     ],
     hookspath=[],
     hooksconfig={},

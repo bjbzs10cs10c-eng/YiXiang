@@ -119,11 +119,12 @@ def _determine_reading_yao(moving_lines: list, yaos: list) -> Optional[dict]:
     return None
 
 
-def start_divination(question: str) -> dict:
+def start_divination(question: str, toss_results: list = None) -> dict:
     """执行完整占卜流程
 
     Args:
         question: 占问事项
+        toss_results: 已有的投掷结果列表（可选），格式为 [{"coins": [3,2,2], "value": 7, "name": "少阳"}, ...]
 
     Returns:
         完整占卜结果字典
@@ -132,7 +133,10 @@ def start_divination(question: str) -> dict:
     tosses = []
     yaos = []
     for i in range(6):
-        result = toss_three_coins()
+        if toss_results is not None and i < len(toss_results):
+            result = toss_results[i]
+        else:
+            result = toss_three_coins()
         tosses.append(result)
         yao = Yao(value=result["value"], position=i + 1)
         yaos.append(yao)
