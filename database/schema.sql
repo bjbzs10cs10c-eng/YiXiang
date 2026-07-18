@@ -48,6 +48,8 @@ CREATE TABLE IF NOT EXISTS divination_records (
     moving_lines TEXT,
     yao_values TEXT,
     notes TEXT,
+    ai_interpretation TEXT,
+    ai_model TEXT,
     FOREIGN KEY(original_hexagram) REFERENCES hexagrams(id),
     FOREIGN KEY(changed_hexagram) REFERENCES hexagrams(id)
 );

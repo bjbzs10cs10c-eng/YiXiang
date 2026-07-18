@@ -3,13 +3,38 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
                                 QPushButton, QLineEdit, QTextBrowser,
                                 QFrame, QScrollArea, QGridLayout)
-from PySide6.QtCore import Signal, Qt, QTimer
+from PySide6.QtCore import Signal, Qt, QTimer, QThread
 from PySide6.QtGui import QPixmap
 
 from core.coin import toss_three_coins
 from controllers.divination_controller import DivinationController
 from config import COIN_FRONT_IMG, COIN_BACK_IMG
 from ui.hexagram_renderer import render_hexagram_block, render_dual_hexagram_block
+from services.ai_service import interpret_divination, AIError
+from services.settings_service import is_ai_configured
+from services.history_service import save_ai_interpretation, get_ai_interpretation
+
+
+class AIInterpretWorker(QThread):
+    """后台线程：调用AI解读，避免界面卡死"""
+    finished_signal = Signal(str, str)  # (content, model)
+    error_signal = Signal(str)  # error_message
+
+    def __init__(self, result):
+        super().__init__()
+        self.result = result
+
+    def run(self):
+        from services.settings_service import get_ai_config
+        try:
+            content = interpret_divination(self.result)
+            config = get_ai_config()
+            model = config.get("model", "未知")
+            self.finished_signal.emit(content, model)
+        except AIError as e:
+            self.error_signal.emit(e.message)
+        except Exception as e:
+            self.error_signal.emit(f"AI解读失败：{e}")
 
 
 class CoinWidget(QLabel):
@@ -74,6 +99,9 @@ class DivinationPage(QWidget):
         self.tosses = []
         self.current_toss = 0
         self.is_tossing = False
+        self._ai_worker = None
+        self._current_result = None
+        self._current_record_id = None
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(30, 30, 30, 30)
@@ -147,6 +175,14 @@ class DivinationPage(QWidget):
         self.reset_btn.clicked.connect(self.reset)
         self.reset_btn.setVisible(False)
         layout.addWidget(self.reset_btn)
+
+        # AI 解读按钮
+        self.ai_btn = QPushButton("AI 解读")
+        self.ai_btn.setFixedHeight(40)
+        self.ai_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.ai_btn.clicked.connect(self.on_ai_interpret)
+        self.ai_btn.setVisible(False)
+        layout.addWidget(self.ai_btn)
 
     def start(self):
         """开始占卜流程"""
@@ -226,7 +262,9 @@ class DivinationPage(QWidget):
         question = self.question_input.text().strip()
         try:
             result = self.controller.perform_divination(question, self.tosses)
-            self.controller.save_result(result)
+            record_id = self.controller.save_result(result)
+            self._current_result = result
+            self._current_record_id = record_id
             self.divination_done.emit(result)
             self.show_result(result)
         except Exception as e:
@@ -239,8 +277,114 @@ class DivinationPage(QWidget):
         self.result_scroll.setVisible(True)
         self.reset_btn.setVisible(True)
 
+        # 显示AI解读按钮（无论是否配置，都显示；未配置时点击会提示）
+        self.ai_btn.setVisible(True)
+        self.ai_btn.setEnabled(True)
+        self.ai_btn.setText("AI 解读")
+
         html = self._build_result_html(result)
         self.result_content.setHtml(html)
+
+        # 如果已有保存的AI解读，直接展示
+        if self._current_record_id:
+            saved = get_ai_interpretation(self._current_record_id)
+            if saved:
+                self._append_ai_result(saved["content"], saved["model"])
+                self.ai_btn.setText("重新AI解读")
+                self.ai_btn.setEnabled(True)
+
+    def on_ai_interpret(self):
+        """触发AI解读"""
+        if not self._current_result:
+            return
+
+        # 检查是否已配置AI
+        if not is_ai_configured():
+            from PySide6.QtWidgets import QMessageBox
+            QMessageBox.warning(self, "未配置AI",
+                                "AI 尚未配置，请先到「设置」页面配置AI服务商、模型和API Key")
+            return
+
+        # 禁用按钮，显示加载中
+        self.ai_btn.setEnabled(False)
+        self.ai_btn.setText("AI 解读中...")
+        self._append_loading()
+
+        # 后台线程调用
+        self._ai_worker = AIInterpretWorker(self._current_result)
+        self._ai_worker.finished_signal.connect(self.on_ai_finished)
+        self._ai_worker.error_signal.connect(self.on_ai_error)
+        self._ai_worker.start()
+
+    def on_ai_finished(self, content, model):
+        """AI解读完成回调"""
+        self.ai_btn.setEnabled(True)
+        self.ai_btn.setText("重新AI解读")
+        self._append_ai_result(content, model)
+
+        # 保存到数据库
+        if self._current_record_id:
+            save_ai_interpretation(self._current_record_id, content, model)
+
+    def on_ai_error(self, error_msg):
+        """AI解读失败回调"""
+        self.ai_btn.setEnabled(True)
+        self.ai_btn.setText("AI 解读")
+        self._append_ai_error(error_msg)
+
+    def _append_loading(self):
+        """追加加载中提示"""
+        html = self.result_content.toHtml()
+        html += "<hr/><p id='ai_loading' style='color:#888; font-size:14px;'>AI 解读中，请稍候...</p>"
+        self.result_content.setHtml(html)
+        # 滚动到底部
+        self.result_content.verticalScrollBar().setValue(
+            self.result_content.verticalScrollBar().maximum()
+        )
+
+    def _append_ai_result(self, content, model):
+        """追加AI解读结果到结果页"""
+        # 重新构建HTML，避免累加重复
+        base_html = self._build_result_html(self._current_result)
+        ai_html = self._build_ai_html(content, model)
+        self.result_content.setHtml(base_html + ai_html)
+        # 滚动到底部
+        QTimer.singleShot(100, self._scroll_to_bottom)
+
+    def _append_ai_error(self, error_msg):
+        """追加AI解读错误提示"""
+        base_html = self._build_result_html(self._current_result)
+        error_html = (
+            "<hr/>"
+            "<div style='background-color:#fdf2f2; padding:12px; border:1px solid #f5c6cb; border-radius:4px;'>"
+            f"<p style='color:#c0392b; font-weight:bold;'>AI 解读失败</p>"
+            f"<p style='color:#721c24; font-size:14px;'>{error_msg}</p>"
+            "</div>"
+        )
+        self.result_content.setHtml(base_html + error_html)
+
+    def _build_ai_html(self, content, model):
+        """构建AI解读HTML"""
+        # 将换行符转为 <br/>，简单转义
+        safe_content = (content
+                        .replace("&", "&amp;")
+                        .replace("<", "&lt;")
+                        .replace(">", "&gt;")
+                        .replace("\n", "<br/>"))
+        return (
+            "<hr/>"
+            "<div style='background-color:#f0f7ff; padding:14px; border:1px solid #c8e0f4; border-radius:4px; margin-top:10px;'>"
+            f"<p style='color:#1a73e8; font-weight:bold; font-size:16px;'>AI 解读（{model}）</p>"
+            "<hr style='border:none; border-top:1px dashed #c8e0f4; margin:8px 0;'/>"
+            f"<div style='color:#333; line-height:1.9; font-size:14px;'>{safe_content}</div>"
+            "</div>"
+        )
+
+    def _scroll_to_bottom(self):
+        """滚动到结果底部"""
+        self.result_content.verticalScrollBar().setValue(
+            self.result_content.verticalScrollBar().maximum()
+        )
 
     def _build_result_html(self, result):
         """构建结果HTML"""
@@ -309,9 +453,12 @@ class DivinationPage(QWidget):
         self.input_frame.setVisible(True)
         self.result_scroll.setVisible(False)
         self.reset_btn.setVisible(False)
+        self.ai_btn.setVisible(False)
         self.question_input.clear()
         self.tosses = []
         self.current_toss = 0
+        self._current_result = None
+        self._current_record_id = None
         for i, lbl in enumerate(self.toss_labels):
             lbl.setText(f"第{6 - i}爻：待投掷")
             lbl.setStyleSheet("font-size: 13px; color: #999; padding: 4px;")

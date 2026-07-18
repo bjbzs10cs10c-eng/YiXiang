@@ -111,3 +111,46 @@ def delete_record(record_id: int) -> bool:
     deleted = cursor.rowcount > 0
     conn.close()
     return deleted
+
+
+def save_ai_interpretation(record_id: int, content: str, model: str) -> bool:
+    """保存AI解读结果到占卜记录
+
+    Args:
+        record_id: 占卜记录ID
+        content: AI解读内容
+        model: 使用的模型名
+
+    Returns:
+        是否保存成功
+    """
+    conn = _get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+        UPDATE divination_records
+        SET ai_interpretation = ?, ai_model = ?
+        WHERE id = ?
+    """, (content, model, record_id))
+    conn.commit()
+    success = cursor.rowcount > 0
+    conn.close()
+    return success
+
+
+def get_ai_interpretation(record_id: int) -> dict:
+    """获取某条记录的AI解读
+
+    Returns:
+        {"content": str, "model": str} 或 None
+    """
+    conn = _get_db()
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT ai_interpretation, ai_model FROM divination_records WHERE id = ?
+    """, (record_id,))
+    row = cursor.fetchone()
+    conn.close()
+    if not row or not row["ai_interpretation"]:
+        return None
+    return {"content": row["ai_interpretation"], "model": row["ai_model"]}

@@ -26,7 +26,52 @@ def _get_resource_dir():
 # 应用信息
 APP_NAME = "易象"
 APP_NAME_EN = "YiXiang"
-VERSION = "1.0.2"
+VERSION = "2.0.0"
+
+# AI服务商预设端点（OpenAI兼容格式）
+# 端点填 base_url，程序自动补全 /chat/completions
+# 模型名由用户自行填写，AI_PROVIDER_MODELS 提供推荐模型名作为参考
+AI_PROVIDERS = {
+    "DeepSeek": "https://api.deepseek.com",
+    "通义千问": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "Kimi (月之暗面)": "https://api.moonshot.cn/v1",
+    "智谱GLM": "https://open.bigmodel.cn/api/paas/v4",
+    "OpenAI": "https://api.openai.com/v1",
+    "Gemini": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "Claude": "",  # Claude官方无OpenAI兼容端点，需填第三方代理地址
+    "自定义": "",
+}
+
+# 各服务商推荐模型名（仅作参考提示，用户可填其他模型名）
+# 来源：各官方API文档（2026-07核实）
+AI_PROVIDER_MODELS = {
+    "DeepSeek": "deepseek-v4-flash, deepseek-v4-pro",
+    "通义千问": "qwen-plus, qwen-max, qwen-turbo",
+    "Kimi (月之暗面)": "kimi-k2.6, kimi-k2.7-code",
+    "智谱GLM": "glm-4.7-flash, glm-4-flash, glm-4",
+    "OpenAI": "gpt-5.5, gpt-5.4, gpt-5.4-mini",
+    "Gemini": "gemini-2.5-pro, gemini-2.5-flash",
+    "Claude": "claude-sonnet-4, claude-opus-4 (需第三方代理)",
+    "自定义": "",
+}
+
+# 默认服务商（首次打开设置页时选中）
+AI_DEFAULT_PROVIDER = "DeepSeek"
+
+# API Key 加密密钥（用于 settings 表中 Key 的简单加密，base64 + XOR）
+# 注意：这不是真正的安全方案，仅防止肉眼直接读取
+AI_KEY_SECRET = b"YiXiang_2026_Secret_Key"
+
+# AI 调用默认参数
+AI_DEFAULT_TIMEOUT = 60        # 请求超时（秒）
+AI_DEFAULT_TEMPERATURE = 0.7   # 生成温度
+AI_DEFAULT_MAX_TOKENS = 2000   # 最大返回 token 数
+
+# settings 表中的 key 常量
+SETTING_KEY_AI_PROVIDER = "ai_provider"       # 服务商名称
+SETTING_KEY_AI_ENDPOINT = "ai_endpoint"       # API 端点
+SETTING_KEY_AI_MODEL = "ai_model"             # 模型名
+SETTING_KEY_AI_API_KEY = "ai_api_key"         # 加密后的 API Key
 
 # 应用根目录
 APP_DIR = _get_app_dir()

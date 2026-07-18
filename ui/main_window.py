@@ -9,6 +9,7 @@ from ui.home_page import HomePage
 from ui.divination_page import DivinationPage
 from ui.library_page import LibraryPage
 from ui.history_page import HistoryPage
+from ui.settings_page import SettingsPage
 
 
 class MainWindow(QMainWindow):
@@ -70,6 +71,11 @@ class MainWindow(QMainWindow):
         self.history_page = HistoryPage()
         self.add_nav_button("历史记录", 3)
         self.pages.addWidget(self.history_page)
+
+        # 设置
+        self.settings_page = SettingsPage()
+        self.add_nav_button("设置", 4)
+        self.pages.addWidget(self.settings_page)
 
         self.nav_layout.addStretch()
 
