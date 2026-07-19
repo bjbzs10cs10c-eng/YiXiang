@@ -26,7 +26,7 @@ def _get_resource_dir():
 # 应用信息
 APP_NAME = "易象"
 APP_NAME_EN = "YiXiang"
-VERSION = "2.0.0"
+VERSION = "2.1.0"
 
 # AI服务商预设端点（OpenAI兼容格式）
 # 端点填 base_url，程序自动补全 /chat/completions
@@ -95,6 +95,9 @@ IMAGES_DIR = os.path.join(RESOURCES_DIR, "images")
 # 硬币图片
 COIN_FRONT_IMG = os.path.join(IMAGES_DIR, "zheng.png")
 COIN_BACK_IMG = os.path.join(IMAGES_DIR, "fan.png")
+
+# 应用图标（用于 exe 和窗口图标）
+APP_ICON = os.path.join(ICONS_DIR, "app.ico")
 
 # 六爻规则
 COIN_FRONT = 3  # 正面

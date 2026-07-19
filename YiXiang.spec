@@ -5,6 +5,14 @@ import os
 
 block_cipher = None
 
+# 应用图标路径（用户放入 resources/icons/app.ico 后自动生效）
+_icon_path = 'resources/icons/app.ico'
+_icon_datas = []
+_icon_param = None
+if os.path.exists(_icon_path):
+    _icon_datas = [(_icon_path, 'resources/icons')]
+    _icon_param = _icon_path
+
 a = Analysis(
     ['main.py'],
     pathex=[],
@@ -18,7 +26,7 @@ a = Analysis(
         ('database/schema.sql', 'database'),
         ('resources/images/zheng.png', 'resources/images'),
         ('resources/images/fan.png', 'resources/images'),
-    ],
+    ] + _icon_datas,
     hiddenimports=[
         'core.coin',
         'core.yao',
@@ -83,5 +91,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=None,  # 可后续添加 icon='resources/icons/app.ico'
+    icon=_icon_param,  # 放入 resources/icons/app.ico 后自动生效
 )

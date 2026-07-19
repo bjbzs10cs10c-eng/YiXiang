@@ -79,7 +79,7 @@ class SettingsPage(QWidget):
 
         # 显示/隐藏Key按钮
         self.toggle_key_btn = QPushButton("显示")
-        self.toggle_key_btn.setFixedWidth(60)
+        self.toggle_key_btn.setFixedWidth(80)
         self.toggle_key_btn.clicked.connect(self.toggle_key_visibility)
         form_layout.addRow("", self.toggle_key_btn)
 

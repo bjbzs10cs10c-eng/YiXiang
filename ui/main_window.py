@@ -1,23 +1,30 @@
 """主窗口 - 左侧导航 + 右侧内容区"""
 
+import os
 from PySide6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout,
                                 QVBoxLayout, QPushButton, QStackedWidget,
                                 QLabel, QButtonGroup)
 from PySide6.QtCore import Qt
-from ui.styles import STYLE_SHEET
+from PySide6.QtGui import QIcon
+from ui.styles import STYLE_SHEET, COLOR_NAV_BG, COLOR_BORDER, COLOR_INK, COLOR_SLATE
 from ui.home_page import HomePage
 from ui.divination_page import DivinationPage
 from ui.library_page import LibraryPage
 from ui.history_page import HistoryPage
 from ui.settings_page import SettingsPage
+from config import APP_ICON
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("易象 - 周易六爻占卜")
-        self.resize(900, 650)
+        self.resize(1200, 800)
         self.setStyleSheet(STYLE_SHEET)
+
+        # 窗口图标
+        if os.path.exists(APP_ICON):
+            self.setWindowIcon(QIcon(APP_ICON))
 
         # 中央部件
         central = QWidget()
@@ -27,20 +34,30 @@ class MainWindow(QMainWindow):
 
         # 左侧导航栏
         nav_widget = QWidget()
-        nav_widget.setFixedWidth(160)
-        nav_widget.setStyleSheet("background-color: #ebe5d8; border-right: 1px solid #d5cdb8;")
+        nav_widget.setFixedWidth(220)
+        nav_widget.setStyleSheet(
+            "background-color: {}; border-right: 1px solid {};".format(COLOR_NAV_BG, COLOR_BORDER)
+        )
         self.nav_layout = QVBoxLayout(nav_widget)
-        self.nav_layout.setContentsMargins(10, 20, 10, 20)
-        self.nav_layout.setSpacing(8)
+        self.nav_layout.setContentsMargins(0, 30, 0, 20)
+        self.nav_layout.setSpacing(4)
+
+        # Logo 区
+        logo = QLabel("☰☰")
+        logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        logo.setStyleSheet("font-size: 32px; color: {}; padding: 10px;".format(COLOR_INK))
+        self.nav_layout.addWidget(logo)
 
         title = QLabel("易象")
-        title.setStyleSheet("font-size: 24px; font-weight: bold; color: #2c2c2c; padding: 10px;")
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        title.setStyleSheet(
+            "font-size: 26px; font-weight: bold; color: {}; font-family: SimSun, 宋体, serif; padding: 4px 10px;".format(COLOR_INK)
+        )
         self.nav_layout.addWidget(title)
 
-        subtitle = QLabel("周易六爻占卜")
-        subtitle.setStyleSheet("font-size: 12px; color: #888; padding-bottom: 20px;")
+        subtitle = QLabel("YiXiang")
         subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        subtitle.setStyleSheet("font-size: 11px; color: {}; padding-bottom: 24px; letter-spacing: 2px;".format(COLOR_SLATE))
         self.nav_layout.addWidget(subtitle)
 
         # 导航按钮组
@@ -53,13 +70,13 @@ class MainWindow(QMainWindow):
         # 首页
         self.home_page = HomePage()
         self.home_page.start_divination_clicked.connect(self.go_to_divination)
-        self.add_nav_button("开始占卜", 0)
+        self.add_nav_button("首页", 0)
         self.pages.addWidget(self.home_page)
 
         # 占卜页
         self.divination_page = DivinationPage()
         self.divination_page.divination_done.connect(self.on_divination_done)
-        self.add_nav_button("起卦", 1)
+        self.add_nav_button("开始占卜", 1)
         self.pages.addWidget(self.divination_page)
 
         # 卦库
